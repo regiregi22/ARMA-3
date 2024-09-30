@@ -10,10 +10,10 @@ force force ace_advanced_ballistics_simulationInterval = 0.05;
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
 force force ace_advanced_fatigue_fadeStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 1;
-force force ace_advanced_fatigue_performanceFactor = 1;
-force force ace_advanced_fatigue_recoveryFactor = 1;
-force force ace_advanced_fatigue_terrainGradientFactor = 1;
+force force ace_advanced_fatigue_loadFactor = 0.8;
+force force ace_advanced_fatigue_performanceFactor = 1.2;
+force force ace_advanced_fatigue_recoveryFactor = 1.2;
+force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
 
 // ACE Advanced Throwing
 force force ace_advanced_throwing_enabled = true;
@@ -40,7 +40,7 @@ force force ace_arsenal_enableIdentityTabs = true;
 force force ace_arsenal_enableModIcons = true;
 force force ace_arsenal_EnableRPTLog = false;
 ace_arsenal_favoritesColor = [0.9,0.875,0.6];
-force force ace_arsenal_fontHeight = 4.5;
+ace_arsenal_fontHeight = 4.5;
 force force ace_arsenal_loadoutsSaveFace = true;
 force force ace_arsenal_loadoutsSaveInsignia = true;
 force force ace_arsenal_loadoutsSaveVoice = true;
@@ -68,19 +68,19 @@ force force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
 force force ace_common_checkPBOsWhitelist = "[]";
-force force ace_common_deployedSwayFactor = 1;
-force force ace_common_displayTextColor = [0,0,0,0.1];
-force force ace_common_displayTextFontColor = [1,1,1,1];
+force force ace_common_deployedSwayFactor = 0.8;
+ace_common_displayTextColor = [0,0,0,0.1];
+ace_common_displayTextFontColor = [1,1,1,1];
 force force ace_common_enableSway = true;
 ace_common_epilepsyFriendlyMode = false;
 force force ace_common_progressBarInfo = 2;
-force force ace_common_restedSwayFactor = 1;
-force force ace_common_settingFeedbackIcons = 1;
-force force ace_common_settingProgressBarLocation = 0;
-force force ace_common_swayFactor = 1;
+force force ace_common_restedSwayFactor = 0.8;
+ace_common_settingFeedbackIcons = 1;
+ace_common_settingProgressBarLocation = 0;
+force force ace_common_swayFactor = 0.8;
 
 // ACE Cook off
-force force ace_cookoff_ammoCookoffDuration = 1;
+force force ace_cookoff_ammoCookoffDuration = 0.8;
 force force ace_cookoff_destroyVehicleAfterCookoff = false;
 force force ace_cookoff_enable = 2;
 force force ace_cookoff_enableAmmobox = true;
@@ -124,9 +124,9 @@ force force acex_field_rations_timeWithoutWater = 2;
 force force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
-force force ace_fire_dropWeapon = 1;
+force force ace_fire_dropWeapon = 2;
 force force ace_fire_enabled = true;
-force force ace_fire_enableFlare = false;
+force force ace_fire_enableFlare = true;
 force force ace_fire_enableScreams = true;
 
 // ACE Fortify
@@ -148,7 +148,7 @@ force force ace_gforces_enabledFor = 1;
 
 // ACE Goggles
 force force ace_goggles_effects = 2;
-force force ace_goggles_showClearGlasses = false;
+force force ace_goggles_showClearGlasses = true;
 force force ace_goggles_showInThirdPerson = false;
 
 // ACE Grenades
@@ -162,7 +162,7 @@ force force acex_headless_log = false;
 force force acex_headless_transferLoadout = 0;
 
 // ACE Hearing
-force force ace_hearing_autoAddEarplugsToUnits = 2;
+force force ace_hearing_autoAddEarplugsToUnits = 0;
 force force ace_hearing_disableEarRinging = true;
 force force ace_hearing_earplugsVolume = 0.5;
 force force ace_hearing_enableCombatDeafness = false;
@@ -172,29 +172,29 @@ force force ace_hearing_unconsciousnessVolume = 0.4;
 // ACE Interaction
 force force ace_interaction_disableNegativeRating = true;
 force force ace_interaction_enableGroupRenaming = true;
-force force ace_interaction_enableMagazinePassing = true;
+force force ace_interaction_enableMagazinePassing = false;
 force force ace_interaction_enableTeamManagement = true;
-force force ace_interaction_enableWeaponAttachments = true;
+force force ace_interaction_enableWeaponAttachments = false;
 force force ace_interaction_interactWithTerrainObjects = false;
 
 // ACE Interaction Menu
 force force ace_gestures_showOnInteractionMenu = 2;
-force force ace_interact_menu_actionOnKeyRelease = true;
+ace_interact_menu_actionOnKeyRelease = true;
 force force ace_interact_menu_addBuildingActions = false;
 ace_interact_menu_alwaysUseCursorInteraction = false;
 ace_interact_menu_alwaysUseCursorSelfInteraction = true;
-force force ace_interact_menu_colorShadowMax = [0,0,0,1];
-force force ace_interact_menu_colorShadowMin = [0,0,0,0.25];
-force force ace_interact_menu_colorTextMax = [1,1,1,1];
-force force ace_interact_menu_colorTextMin = [1,1,1,0.25];
+ace_interact_menu_colorShadowMax = [0,0,0,1];
+ace_interact_menu_colorShadowMin = [0,0,0,0.25];
+ace_interact_menu_colorTextMax = [1,1,1,1];
+ace_interact_menu_colorTextMin = [1,1,1,0.25];
 ace_interact_menu_consolidateSingleChild = false;
 ace_interact_menu_cursorKeepCentered = false;
 ace_interact_menu_cursorKeepCenteredSelfInteraction = false;
-force force ace_interact_menu_menuAnimationSpeed = 0;
+ace_interact_menu_menuAnimationSpeed = 0;
 force force ace_interact_menu_menuBackground = 0;
 force force ace_interact_menu_menuBackgroundSelf = 0;
-force force ace_interact_menu_selectorColor = [1,0,0];
-force force ace_interact_menu_shadowSetting = 2;
+ace_interact_menu_selectorColor = [1,0,0];
+ace_interact_menu_shadowSetting = 2;
 ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = true;
 ace_interact_menu_useListMenuSelf = false;
@@ -393,13 +393,13 @@ force force ace_markers_timestampUTCOffset = 0;
 force force ace_map_gestures_allowCurator = true;
 force force ace_map_gestures_allowSpectator = true;
 force force ace_map_gestures_briefingMode = 0;
-force force ace_map_gestures_defaultColor = [1,0.88,0,0.7];
-force force ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
+ace_map_gestures_defaultColor = [1,0.88,0,0.7];
+ace_map_gestures_defaultLeadColor = [1,0.88,0,0.95];
 force force ace_map_gestures_enabled = true;
 force force ace_map_gestures_interval = 0.03;
 force force ace_map_gestures_maxRange = 7;
 force force ace_map_gestures_maxRangeCamera = 14;
-force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
+ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 force force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
@@ -409,14 +409,14 @@ force force ace_maptools_rotateModifierKey = 1;
 
 // ACE Medical
 force force ace_medical_ai_enabledFor = 2;
-force force ace_medical_ai_requireItems = 0;
+force force ace_medical_ai_requireItems = 2;
 force force ace_medical_AIDamageThreshold = 1;
-force force ace_medical_bleedingCoefficient = 0.3;
+force force ace_medical_bleedingCoefficient = 0.5;
 force force ace_medical_blood_bloodLifetime = 900;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 500;
 force force ace_medical_deathChance = 0;
-force force ace_medical_dropWeaponUnconsciousChance = 0.5;
+force force ace_medical_dropWeaponUnconsciousChance = 0.25;
 force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_engine_damagePassThroughEffect = 1;
 force force ace_medical_fatalDamageSource = 0;
@@ -428,8 +428,8 @@ force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_painUnconsciousThreshold = 0.5;
 force force ace_medical_playerDamageThreshold = 1;
-force force ace_medical_spontaneousWakeUpChance = 0.2;
-force force ace_medical_spontaneousWakeUpEpinephrineBoost = 2;
+force force ace_medical_spontaneousWakeUpChance = 0.25;
+force force ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
 force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 600;
@@ -483,27 +483,27 @@ force force ace_medical_vitals_simulateSpO2 = true;
 force force ace_medical_feedback_bloodVolumeEffectType = 0;
 force force ace_medical_feedback_enableHUDIndicators = true;
 force force ace_medical_feedback_painEffectType = 0;
-force force ace_medical_gui_bloodLossColor_0 = [0,0,0,1];
-force force ace_medical_gui_bloodLossColor_1 = [1,0.95,0.64,1];
-force force ace_medical_gui_bloodLossColor_2 = [1,0.87,0.46,1];
-force force ace_medical_gui_bloodLossColor_3 = [1,0.8,0.33,1];
-force force ace_medical_gui_bloodLossColor_4 = [1,0.72,0.24,1];
-force force ace_medical_gui_bloodLossColor_5 = [1,0.63,0.15,1];
-force force ace_medical_gui_bloodLossColor_6 = [1,0.54,0.08,1];
-force force ace_medical_gui_bloodLossColor_7 = [1,0.43,0.02,1];
-force force ace_medical_gui_bloodLossColor_8 = [1,0.3,0,1];
-force force ace_medical_gui_bloodLossColor_9 = [1,0,0,1];
-force force ace_medical_gui_bodyPartOutlineColor = [1,1,1,1];
-force force ace_medical_gui_damageColor_0 = [0,0,0,1];
-force force ace_medical_gui_damageColor_1 = [0.75,0.95,1,1];
-force force ace_medical_gui_damageColor_2 = [0.62,0.86,1,1];
-force force ace_medical_gui_damageColor_3 = [0.54,0.77,1,1];
-force force ace_medical_gui_damageColor_4 = [0.48,0.67,1,1];
-force force ace_medical_gui_damageColor_5 = [0.42,0.57,1,1];
-force force ace_medical_gui_damageColor_6 = [0.37,0.47,1,1];
-force force ace_medical_gui_damageColor_7 = [0.31,0.36,1,1];
-force force ace_medical_gui_damageColor_8 = [0.22,0.23,1,1];
-force force ace_medical_gui_damageColor_9 = [0,0,1,1];
+ace_medical_gui_bloodLossColor_0 = [0,0,0,1];
+ace_medical_gui_bloodLossColor_1 = [1,0.95,0.64,1];
+ace_medical_gui_bloodLossColor_2 = [1,0.87,0.46,1];
+ace_medical_gui_bloodLossColor_3 = [1,0.8,0.33,1];
+ace_medical_gui_bloodLossColor_4 = [1,0.72,0.24,1];
+ace_medical_gui_bloodLossColor_5 = [1,0.63,0.15,1];
+ace_medical_gui_bloodLossColor_6 = [1,0.54,0.08,1];
+ace_medical_gui_bloodLossColor_7 = [1,0.43,0.02,1];
+ace_medical_gui_bloodLossColor_8 = [1,0.3,0,1];
+ace_medical_gui_bloodLossColor_9 = [1,0,0,1];
+ace_medical_gui_bodyPartOutlineColor = [1,1,1,1];
+ace_medical_gui_damageColor_0 = [0,0,0,1];
+ace_medical_gui_damageColor_1 = [0.75,0.95,1,1];
+ace_medical_gui_damageColor_2 = [0.62,0.86,1,1];
+ace_medical_gui_damageColor_3 = [0.54,0.77,1,1];
+ace_medical_gui_damageColor_4 = [0.48,0.67,1,1];
+ace_medical_gui_damageColor_5 = [0.42,0.57,1,1];
+ace_medical_gui_damageColor_6 = [0.37,0.47,1,1];
+ace_medical_gui_damageColor_7 = [0.31,0.36,1,1];
+ace_medical_gui_damageColor_8 = [0.22,0.23,1,1];
+ace_medical_gui_damageColor_9 = [0,0,1,1];
 force force ace_medical_gui_enableActions = 0;
 force force ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
@@ -520,12 +520,12 @@ force force ace_medical_gui_tourniquetWarning = true;
 
 // ACE Name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 1;
-force force ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
-force force ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
-force force ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
-force force ace_nametags_nametagColorMain = [1,1,1,1];
-force force ace_nametags_nametagColorRed = [1,0.67,0.67,1];
-force force ace_nametags_nametagColorYellow = [1,1,0.67,1];
+ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
+ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
+ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
+ace_nametags_nametagColorMain = [1,1,1,1];
+ace_nametags_nametagColorRed = [1,0.67,0.67,1];
+ace_nametags_nametagColorYellow = [1,1,0.67,1];
 force force ace_nametags_playerNamesMaxAlpha = 0.8;
 force force ace_nametags_playerNamesViewDistance = 5;
 force force ace_nametags_showCursorTagForVehicles = false;
@@ -545,7 +545,7 @@ force force ace_nightvision_noiseScaling = 0.1;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
-force force ace_overheating_cookoffCoef = 3;
+force force ace_overheating_cookoffCoef = 1;
 force force ace_overheating_coolingCoef = 1;
 force force ace_overheating_displayTextOnJam = true;
 force force ace_overheating_enabled = true;
@@ -563,7 +563,7 @@ force force ace_overheating_unJamOnSwapBarrel = false;
 
 // ACE Pointing
 force force ace_finger_enabled = true;
-force force ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
+ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 force force ace_finger_indicatorForSelf = true;
 force force ace_finger_maxRange = 4;
 force force ace_finger_proximityScaling = false;
@@ -656,9 +656,9 @@ force force ace_fastroping_autoAddFRIES = true;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
-force force ace_inventory_inventoryDisplaySize = 0;
+ace_inventory_inventoryDisplaySize = 0;
 force force ace_laser_dispersionCount = 2;
-force force ace_laser_showLaserOnMap = 1;
+force force ace_laser_showLaserOnMap = 3;
 force force ace_marker_flags_placeAnywhere = true;
 force force ace_microdagr_mapDataAvailable = 2;
 force force ace_microdagr_waypointPrecision = 3;
@@ -717,7 +717,7 @@ force force ace_vehiclelock_vehicleStartingLockState = 2;
 force force ace_novehicleclanlogo_enabled = false;
 ace_vehicles_hideEjectAction = true;
 force force ace_vehicles_keepEngineRunning = true;
-force force ace_vehicles_speedLimiterStep = 1;
+force force ace_vehicles_speedLimiterStep = 5;
 force force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
@@ -855,7 +855,7 @@ force force TFAR_externalIntercomMaxRange_Wireless = 15;
 force force TFAR_fullDuplex = true;
 force force TFAR_giveLongRangeRadioToGroupLeaders = false;
 force force TFAR_giveMicroDagrToSoldier = true;
-force force TFAR_givePersonalRadioToRegularSoldier = false;
+force force TFAR_givePersonalRadioToRegularSoldier = true;
 force force TFAR_globalRadioRangeCoef = 1;
 force force TFAR_instantiate_instantiateAtBriefing = false;
 force force TFAR_objectInterceptionEnabled = true;
@@ -883,7 +883,7 @@ force force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
 force force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
 force force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
 force force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
-force force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
+force force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_anprc152";
 force force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force force TFAR_spectatorCanHearEnemyUnits = true;
 force force TFAR_spectatorCanHearFriendlies = true;
