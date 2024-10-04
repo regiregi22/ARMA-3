@@ -16,36 +16,37 @@ class DifficultyPresets
 	{
 		class Options
 		{
-			reducedDamage=0;
-			groupIndicators=0;
-			friendlyTags=0;
-			enemyTags=0;
-			detectedMines=0;
-			commands=0;
-			waypoints=0;
-			tacticalPing=3;
-			weaponInfo=2;
-			stanceIndicator=2;
-			staminaBar=1;
-			weaponCrosshair=0;
-			visionAid=0;
-			thirdPersonView=0;
-			cameraShake=1;
-			scoreTable=1;
-			deathMessages=1;
-			vonID=1;
+			reducedDamage=0;		// Reduced damage
+			groupIndicators=0;		// Group indicators (0 = never, 1 = limited distance, 2 = always)
+			friendlyTags=0;			// Friendly name tags (0 = never, 1 = limited distance, 2 = always)
+			enemyTags=0;			// Enemy name tags (0 = never, 1 = limited distance, 2 = always)
+			detectedMines=0;		// Detected mines (0 = never, 1 = limited distance, 2 = always)
+			commands=0;			// Commands (0 = never, 1 = fade out, 2 = always)
+			waypoints=0;			// Waypoints (0 = never, 1 = fade out, 2 = always)
+			tacticalPing=3;			// Tactical ping (0 = disable, 1 = enable)
+			weaponInfo=2;			// Weapon info (0 = never, 1 = fade out, 2 = always)
+			stanceIndicator=2;		// Stance indicator (0 = never, 1 = fade out, 2 = always)
+			staminaBar=1;			// Stamina bar
+			weaponCrosshair=0;		// Weapon crosshair
+			visionAid=0;			// Vision aid
+			thirdPersonView=0;		// 3rd person view (0 = disabled, 1 = enabled, 2 = enabled for vehicles only
+			cameraShake=1;			// Camera shake
+			scoreTable=1;			// Score table
+			deathMessages=1;		// Killed by
+			vonID=1;			// VoN ID
+			mapContent = 0;			// Extended map content
 			mapContentFriendly=0;
 			mapContentEnemy=0;
 			mapContentMines=0;
-			autoReport=0;
-			multipleSaves=1;
+			autoReport=0;			// Automatic reporting of spotted enemied by players only.
+			multipleSaves=1;		// Multiple saves
 		};
-		aiLevelPreset=3;
+		aiLevelPreset=3;			// AI skill level0 (Low), 1 (Normal), 2 (High), 3 (Custom). In Custom skill and precision are taken from the class CustomAILevel.
 	};
 	class CustomAILevel
 	{
-		skillAI=0.02;
-		precisionAI=0.02;
+		skillAI=0.01;
+		precisionAI=0.01;
 	};
 };
 sceneComplexity=100000;
