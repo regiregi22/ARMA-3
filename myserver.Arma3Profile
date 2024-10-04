@@ -23,7 +23,7 @@ class DifficultyPresets
 			detectedMines=0;		// Shows icons indicating exact positions of mines which are 200 m or closer. Detected mines (0 = never, 1 = limited distance, 2 = always)
 			commands=0;			// Displays command icons like target markers, get in command and others. Commands (0 = never, 1 = fade out, 2 = always)
 			waypoints=0;			// Manages visibility of waypoint markers. Waypoints (0 = never, 1 = fade out, 2 = always)
-			tacticalPing=3;			// Allows players to highlight a position via a Tactical Ping. Tactical ping (0 = disable, 1 = enable)
+			tacticalPing=3;			// Allows players to highlight a position via a Tactical Ping. Tactical ping (0 = disabled, 1 = in 3D scene, 2 = on map, 3 = both)
 			weaponInfo=2;			// Shows Weapon Info box contains round and magazine count, firing mode, etc.. Weapon info (0 = never, 1 = fade out, 2 = always)
 			stanceIndicator=2;		// Displays stance indication contains actual stance, weapon resting and deployment. Stance indicator (0 = never, 1 = fade out, 2 = always)
 			staminaBar=1;			// Manages visibility of stamina indicator. Fades in when stamina changes.
