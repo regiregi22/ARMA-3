@@ -1,1 +1,64 @@
+version=1;
+blood=1;
+singleVoice=0;
+gamma=1;
+brightness=1;
+ppBrightness=1.01;
+ppContrast=1.0599999;
+ppSaturation=1.08;
+playedKeys[]=
+{
+	"BIS_Showcase_FiringFromVehicles.Altis_done"
+};
+class DifficultyPresets
+{
+	class CustomDifficulty
+	{
+		class Options
+		{
+			reducedDamage=0;
+			groupIndicators=0;
+			friendlyTags=0;
+			enemyTags=0;
+			detectedMines=0;
+			commands=0;
+			waypoints=0;
+			tacticalPing=3;
+			weaponInfo=2;
+			stanceIndicator=2;
+			staminaBar=1;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=0;
+			cameraShake=1;
+			scoreTable=1;
+			deathMessages=1;
+			vonID=1;
+			mapContentFriendly=0;
+			mapContentEnemy=0;
+			mapContentMines=0;
+			autoReport=0;
+			multipleSaves=1;
+		};
+		aiLevelPreset=3;
+	};
+	class CustomAILevel
+	{
+		skillAI=0.02;
+		precisionAI=0.02;
+	};
+};
+sceneComplexity=100000;
+shadowZDistance=100;
+viewDistance=3000;
+preferredObjectViewDistance=1600;
+pipViewDistance=500;
+terrainGrid=3;
+volumeCD=5;
+volumeFX=5;
+volumeSpeech=5;
+volumeVoN=10;
+vonRecThreshold=0.029999999;
+volumeMapDucking=1;
+volumeUI=1;
 
