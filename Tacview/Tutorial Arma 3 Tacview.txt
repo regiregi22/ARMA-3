@@ -15,9 +15,13 @@
 
 7- Press ESC key, Configure controls, Configure addons, select from the list "Tacview Recorder" and configure the shortcuts (eg. "Check wether running" as Ctrl+Alt+A , "Start recording" as Ctrl+Alt+S and "Stop Recording" as Ctrl+Alt+D). When playing, those are the controls to generate the recording file to review after using Tacview. No need to be admin for that, any client can do it. Make any record, stop it, and close the game.
 
-8- Open Tacview, click on Options/Terrain/ and select ARMA. Click on Options/Terrain/ Display Mode and click 3D & Underwater. Click on Addons, Enable/Disable Addons and activate "Arma 3 Tools". Click on Addons/Arma 3 Tools/ and tick "Remove AI Units callsigns", on Addons/Arma 3 Tools/Map markers tick "No". DO NOT TICK "Display statistics overlay" and "Display scoreboard" unless needed, as it makes the interface VERY laggy. Close Tacview.
+8- Open Tacview, click on Options/Terrain/ and select ARMA. Click on Options/Terrain/ Display Mode and click 3D & Underwater. Click on Options/Terrain/ and tick "Custom textures". Click on Addons, Enable/Disable Addons and activate "Arma 3 Tools". Click on Addons/Arma 3 Tools/ and tick "Remove AI Units callsigns", on Addons/Arma 3 Tools/Map markers tick "No". DO NOT TICK "Display statistics overlay" and "Display scoreboard" unless needed, as it makes the interface VERY laggy. Close Tacview.
+
+9- Now you can open any ACMI file with Tacview, configure it to your liking as it has lot of options and features to analyze your mission.
+
+10- One last thing. If the mission edit has lots of markers, they are exported as well, and this can be very annoying. An easy way to remove them is to open the ACMI with any text editor (like Notepad++), the use the Replace function and replace the string "Name=Marker" with nothing. I mean, deleting all those strings in the file.
 
 
-IMPORTANT: Some textures like Altis map are very high resolution files that could take up to one minute to load, so be patience when opening an ACMI file and leave it enough time to load it properly.
+-IMPORTANT: Some textures like Altis map are very high resolution files that could take up to one minute to load, so be patience when opening an ACMI file and leave it enough time to load it properly.
 
-IMPORTANT: This addon is not very resource intensive, but it is a waste of network, server and client resources to run more than one instance of it. So coordinate with the other players to only record it one person, and the send the recorded ACMI to the others.
+-IMPORTANT: This addon is not very resource intensive, but it is a waste of network, server and client resources to run more than one instance of it. So coordinate with the other players to only record it one person, and the send the recorded ACMI to the others.
