@@ -1,1 +1,1 @@
-
+"J:\Steam\steamapps\common\Arma 3\arma3server_x64.exe"  -client  -connect=192.168.0.6 -port=2302 -nosound -password=mana -nologs -enableHT -mod=@CBA_A3;@task_force_radio;@ace3;@st1;@Armeria;@Vehiculos;@RHS;@ST1_mapas;@ST1_compatibles;
