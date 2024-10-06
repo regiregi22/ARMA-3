@@ -1,0 +1,7 @@
+1- Subscribe and load the addon "Tacview Recorder" on the Client (not on the server, it is only clientside):
+  https://steamcommunity.com/sharedfiles/filedetails/?id=2754878041
+
+2- Download all the zip files in this folder (around 59 files, you can download them at once in a singles zip file, click on the title on download):
+  https://drive.google.com/drive/folders/1aXDR-UuWUXuVr3aux_CNbsoqjsZeiT14
+
+3- 
