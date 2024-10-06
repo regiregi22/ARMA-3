@@ -1,4 +1,4 @@
-More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File
+More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
 More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting
 More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands
