@@ -1,23 +1,20 @@
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting
-*// More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Config_File
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Headless_Client
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile
-*// More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting
-*// More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts
-*// More information at: https://community.bistudio.com/wiki/server.armaprofile
-*// More information at: https://community.bistudio.com/wiki/Description.ext
-*// More information at: https://community.bistudio.com/wiki/BattlEye
-
-
-
+More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File
+More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting
+More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands
+More information at: https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings
+More information at: https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Config_File
+More information at: https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names
+More information at: https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server
+More information at: https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery
+More information at: https://community.bistudio.com/wiki/Arma_3:_Headless_Client
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile
+More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting
+More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts
+More information at: https://community.bistudio.com/wiki/server.armaprofile
+More information at: https://community.bistudio.com/wiki/Description.ext
+More information at: https://community.bistudio.com/wiki/BattlEye
 
 --------------------------------------------------------------------------
 SERVER NETWORKING CONFIG:
