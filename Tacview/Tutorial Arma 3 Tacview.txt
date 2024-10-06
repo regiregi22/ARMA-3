@@ -9,4 +9,9 @@
 4- Subscribe to the addon "Tacview Recorder" on the Client (not on the server, it is only clientside):
   https://steamcommunity.com/sharedfiles/filedetails/?id=2754878041
 
-5- Load the addon "Tacview Recorder" and "CBA-A3" on Arma 3 (and any other mods you need to join your server), and joint the server you want to play. Press ESC key, click on Options, click on Addon options, go to tab Client, and select from the list "Tacview Recorder". Set your output folder for the recordings (ACMI files, eg. D:\tacviewarma3), untick "Output debug information", tick "Allow remoteExec" and tick "Record Projectiles".
+5- Load the addon "Tacview Recorder" and "CBA-A3" on Arma 3 (and any other mods you need to join your server), and joint the server you want to play. 
+
+6- Press ESC key, click on Options, click on Addon options, go to tab Client, and select from the list "Tacview Recorder". Set your output folder for the recordings (ACMI files, eg. D:\tacviewarma3), untick "Output debug information", tick "Allow remoteExec" and tick "Record Projectiles". Press OK to all and return to game.
+
+7- Press ESC key, Configure controls, Configure addons, select from the list "Tacview Recorder" and configure the shortcuts (eg. "Check wether running" as Ctrl+Alt+A , "Start recording" as Ctrl+Alt+S and "Stop Recording" as Ctrl+Alt+D).
+
