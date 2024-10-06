@@ -1,1 +1,3 @@
 "J:\Steam\steamapps\common\Arma 3\arma3server.exe" -filePatching -port=2302 "-config=J:\Steam\steamapps\common\Arma 3\TADST\default\TADST_config.cfg" "-cfg=J:\Steam\steamapps\common\Arma 3\TADST\default\TADST_basic.cfg" "-profiles=J:\Steam\steamapps\common\Arma 3\TADST\default" -name=default -ranking=ranking.log -enableHT -mod=@CBA_A3;@task_force_radio;@ace3;@ace3server;@st1;@Armeria;@Vehiculos;@RHS;@ST1_mapas;@asm
+
+"G:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -port=2302 -config=server.cfg -cfg=basic.cfg -profiles=perfiles -name=misiones -world=empty -filePatching -mod="G:\Steam\steamapps\common\Arma 3\!Workshop\@ace";"G:\Steam\steamapps\common\Arma 3\!Workshop\@CBA_A3"
