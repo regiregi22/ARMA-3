@@ -1,7 +1,12 @@
-1- Subscribe and load the addon "Tacview Recorder" on the Client (not on the server, it is only clientside):
-  https://steamcommunity.com/sharedfiles/filedetails/?id=2754878041
+1- Download and install Tacview:
+  https://www.tacview.net/download/latest/en/
 
-2- Download all the zip files in this folder (around 59 files, you can download them at once in a singles zip file, click on the title on download):
+2- Download all the zip files in this googledrive link (around 59 files, you can download them at once in a singles zip file, click on the title on download):
   https://drive.google.com/drive/folders/1aXDR-UuWUXuVr3aux_CNbsoqjsZeiT14
 
-3- 
+3- Extract the content of those files in the folder %ProgramData%\Tacview\
+
+4- Subscribe to the addon "Tacview Recorder" on the Client (not on the server, it is only clientside):
+  https://steamcommunity.com/sharedfiles/filedetails/?id=2754878041
+
+5- Load the addon "Tacview Recorder" and "CBA-A3" on Arma 3, start the game. Click on Singleplayer, Editor, Virtual Reality. Spawn any men unit and click on Play Scenario. Press ESC key, click on Options, click on Addon options, go to tab Client, and select from the list 
