@@ -13,5 +13,10 @@
 
 6- Press ESC key, click on Options, click on Addon options, go to tab Client, and select from the list "Tacview Recorder". Set your output folder for the recordings (ACMI files, eg. D:\tacviewarma3), untick "Output debug information", tick "Allow remoteExec" and tick "Record Projectiles". Press OK to all and return to game.
 
-7- Press ESC key, Configure controls, Configure addons, select from the list "Tacview Recorder" and configure the shortcuts (eg. "Check wether running" as Ctrl+Alt+A , "Start recording" as Ctrl+Alt+S and "Stop Recording" as Ctrl+Alt+D).
+7- Press ESC key, Configure controls, Configure addons, select from the list "Tacview Recorder" and configure the shortcuts (eg. "Check wether running" as Ctrl+Alt+A , "Start recording" as Ctrl+Alt+S and "Stop Recording" as Ctrl+Alt+D). When playing, those are the controls to generate the recording file to review after using Tacview. No need to be admin for that, any client can do it. Make any record, stop it, and close the game.
 
+8- Open Tacview, click on Options/Terrain and select ARMA. Click on Options/Terrain Display Mode and click 3D & Underwater.
+
+
+
+IMPORTANT: This addon is not very resource intensive, but it is a waste of network, server and client resources to run more than one instance of it. So coordinate with the other players to only record it one person, and the send the recorded ACMI to the others.
