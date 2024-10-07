@@ -2,6 +2,7 @@
 
 ## CLIENT  
 
+-----------------------------
 ### Arma 3 Client Performance Tuning:  
 
 All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU (Nvidia), and at least 16Gb of RAM.
@@ -41,22 +42,23 @@ All below settings are optional, but they will provide better performance or imp
 
 17- Press Start button, search "Mouse Settings", click on "Additional mouse settings", go to Pointer Options tab and untick Enhance pointer position.
 
-17- Press Start button, search "Sticky keys", and put all the settings to OFF.
+18- Press Start button, search "Sticky keys", and put all the settings to OFF.
 
-18- Restart the computer.  
+19- Restart the computer.  
 
-19- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
+20- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
-20- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
+21- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
+-----------------------------
 ### Arma 3 Client Launch Parameters:  
 
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
 ## SERVER 
-
+-----------------------------
 ### Arma 3 Server Network Configuration:  
 
 1- Add on Window's Firewall the rules for the application "arma3server_x64.exe", and allow it both on "Private" and "Public" networks.
@@ -73,8 +75,9 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 2306 (BattlEye traffic, +4)  
 27015 (STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
 
-### Arma 3 Server Launch Parameters:  
 -----------------------------
+### Arma 3 Server Launch Parameters:  
+
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
 
 // -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
