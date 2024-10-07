@@ -4,43 +4,42 @@
 -----------------------------
 ### Arma 3 Performance Tuning:  
 
-All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU, and at least 16Gb of RAM.
+All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU (Nvidia), and at least 16Gb of RAM.
 
 1- Go to Steam > Settings > In-Game, tick In-game FPS counter, tick high contrast colour. Optional FPS counter to aid in tunning settings.
 
 2- Go to C:\Users\[your_username]\Documents\Arma 3. Open Arma3.cfg with text editor, If you have monitor with refresh rate above 60Hz, set refresh to your refresh rate (for example: refresh=144;). Save changes and close file.  
-**Optional, not recommended**, for reducing display lag to 1 frame (at the expense of lower median fps and more framespikes), set "GPU_MaxFramesAhead=1" and "GPU_DetectedFramesAhead=1" (Nvidia Control Panel call it "Low Latency Mode", more info here: https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/#mprf-101).
+**Optional, not recommended**, for reducing display lag to 1 frame (at the expense of lower median fps and more framespikes), set "GPU_MaxFramesAhead=1" and "GPU_DetectedFramesAhead=1" (Nvidia Control Panel call it "Low Latency Mode", more info here: https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/#mprf-101).  
 
-3- Go to C:\Users\[your_username]\Documents\Arma 3. Open [your_username].Arma3Profile with text editor, set "mouseSmoothing=0" and "mouseAcceleration=0". This will give you direct raw mouse control, instead of the smoothed filtered movement. Save changes and close file.
+3- Go to C:\Users\[your_username]\Documents\Arma 3. Open [your_username].Arma3Profile with text editor, set "mouseSmoothing=0" and "mouseAcceleration=0". This will give you direct raw mouse control, instead of the smoothed filtered movement. Save changes and close file.  
 
-4- Open Steam, select ARMA 3, Properties (right mouse button on ARMA 3 in library), go to BETA tab, select "profiling - Performance Profiling Build". This "performance" branch will give you some more fps, but if stability is paramount to you, just stick with the normal branch.
+4- Open Steam, select ARMA 3, Properties (right mouse button on ARMA 3 in library), go to BETA tab, select "profiling - Performance Profiling Build". This "performance" branch will give you some more fps, but if stability is paramount to you, just stick with the normal branch.  
 
-5- Open ARMA 3 Launcher, go to Options (upper right corner), select Launcher Options, set "Action after game start" to "Close Launcher after clicking Play".
+5- Open ARMA 3 Launcher, go to Options (upper right corner), select Launcher Options, set "Action after game start" to "Close Launcher after clicking Play".  
 
-6- Start ARMA 3 Launcher, select PARAMETERS and go to ALL PARAMETERS tab. Set "Platform" to "64-bit", tick "Show static background in menu", tick "Skip logos at startup", Set "Memory allocator (64-bit)" to "Intel TBB 4 allocator - 64 bit" (the default one, just to be sure), tick "Enable Large-page Support", tick "No Logs", set "World" to "empty", tick "No Pause", tick "No Pause Audio".
+6- Start ARMA 3 Launcher, select PARAMETERS and go to ALL PARAMETERS tab. Set "Platform" to "64-bit", tick "Show static background in menu", tick "Skip logos at startup", Set "Memory allocator (64-bit)" to "Intel TBB 4 allocator - 64 bit" (the default one, just to be sure), tick "Enable Large-page Support", tick "No Logs", set "World" to "empty", tick "No Pause", tick "No Pause Audio".  
 
-7- Install and open "Process Lasso" (https://bitsum.com), start ARMA 3 (the game, not just the launcher). In Process Lasso, click with right mouse button on "arma3_64x.exe" -> CPU Priority -> Always -> High. Click with right mouse button on "arma3_64x.exe" process -> CPU affinity -> Always -> Untick CPU 0. This will give Arma 3 priority above other system processes, and avoid it from using the first core which is usually very busy with system dutties.
+7- Install and open "Process Lasso" (https://bitsum.com), start ARMA 3 (the game, not just the launcher). In Process Lasso, click with right mouse button on "arma3_64x.exe" -> CPU Priority -> Always -> High. Click with right mouse button on "arma3_64x.exe" process -> CPU affinity -> Always -> Untick CPU 0. This will give Arma 3 priority above other system processes, and avoid it from using the first core which is usually very busy with system dutties.  
 
-8- In "Process Lasso", go to Main, Active Power Profile, and select "Bitsum Highest Performance". Go to Options, Power, Start Process Lasso with Power Profile" and select "Bitsum Highest Performance". This will set Windows energy management to avoid CPU throttling.
+8- In "Process Lasso", go to Main, Active Power Profile, and select "Bitsum Highest Performance". Go to Options, Power, Start Process Lasso with Power Profile" and select "Bitsum Highest Performance". This will set Windows energy management to avoid CPU throttling.  
 
-9- Click Windows Start, execute regedit.exe (right click, as administrator), go to "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" and change "AppCaptureEnabled" from 1 to 0. Go to "HKEY_CURRENT_USER\System\GameConfigStore" and change "GameDVR_Enabled" from 1 to 0. This will disable Windows 11 DVR if it is not needed.
+9- Click Windows Start, execute regedit.exe (right click, as administrator), go to "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" and change "AppCaptureEnabled" from 1 to 0. Go to "HKEY_CURRENT_USER\System\GameConfigStore" and change "GameDVR_Enabled" from 1 to 0. This will disable Windows 11 DVR if it is not needed.  
 
--10 Optional, uninstall any uneeded applications that comes with Windows from "Add or remove programs": "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link" and "Tips".
+-10 Optional, uninstall any uneeded applications that comes with Windows from "Add or remove programs": "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link" and "Tips".  
 
-11- Open Windows' settings "Gaming", then "Game Mode settings" and make sure it is ON.  
+11- Open Windows' settings "Gaming", then "Game Mode settings" and make sure it is ON.   
 
-12- Open Windows' settings "Gaming", then "Game Bar", then "Allow your controller to open Game Bar" to OFF.
+12- Open Windows' settings "Gaming", then "Game Bar", then "Allow your controller to open Game Bar" to OFF.  
 
-13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Set "Anisotropic filtering" to 16x, "Vertical Sync" to On, "Power Management Mode" to High Performance, "Shader Cache Size" to 10 Gb and "Texture filtering - Quality" to High quality.
+13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Set "Anisotropic filtering" to 16x, "Vertical Sync" to On, "Power Management Mode" to High Performance, "Shader Cache Size" to 10 Gb and "Texture filtering - Quality" to High quality.  
 
-14- If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible. Make sure you activate G-SYNC/Freesync on your monitor buttons menu.
+14- If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible.  
 
+14- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, Program Settings, and add "arma3_x64.exe". Then go to Display, Set-up G-SYNC, tick "Enable G-SYNC", tick "Enable for windowed and full screen mode", select your display and tick "Enable settings for the selected display model". Make sure you activate G-SYNC/Freesync on your monitor buttons menu.  
 
-14- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, Program Settings, and add "arma3_x64.exe". Then go to Display, Set-up G-SYNC, tick "Enable G-SYNC", tick "Enable for windowed and full screen mode", select your display and tick "Enable settings for the selected display model".
+15- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled. This is your base configuration, now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking.
 
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
-
-
 
 -----------------------------
 ### Starting parameters:  
