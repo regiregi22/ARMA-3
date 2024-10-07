@@ -26,8 +26,7 @@ All below settings are optional, but they will provide better performance or imp
 
 9- Click Windows Start, execute regedit.exe (right click, as administrator), go to "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" and change "AppCaptureEnabled" from 1 to 0. Go to "HKEY_CURRENT_USER\System\GameConfigStore" and change "GameDVR_Enabled" from 1 to 0. This will disable Windows 11 DVR if it is not needed.
 
--Disable Cortana. Windows Settings, Apps, Installed Apps, search Cortana, Advanced options, "Never" Let this app run in background.
--Uninstall "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link", "Tips"
+-10 Optional, uninstall any uneeded applications that comes with Windows from "Add or remove programs": "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link" and "Tips".
 
 Game mode ON
 Game Bar - Allow controller to open game bar
