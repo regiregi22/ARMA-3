@@ -96,7 +96,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx" 
 
 -----------------------------
-REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
+# REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
 
 ### Arma 3 Server File Locations:  
 
@@ -167,7 +167,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
 	
 --------------------------------------------------------------------------
 
-### Arma 3 Configuration References:  
+## Arma 3 Configuration References:  
 
 https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation  
