@@ -42,7 +42,7 @@ All below settings are optional, but they will provide better performance or imp
 17- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
-This is the gold standard benchmark for testing Arma performance settings if needed:
+18- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
 -----------------------------
