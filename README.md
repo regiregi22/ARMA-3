@@ -96,17 +96,18 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx" 
 
 -----------------------------
+REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
 
-FILE LOCATIONS
+### File Locations:  
 
-D:\Games\Arma3\A3Master\Users\Administrator\Administrator.Arma3Profile (Difficulty settings)  
-D:\Games\Arma3\A3Master\Users\Administrator\Administrator.vars.Arma3Profile (Some binarised content which you cannot edit)  
-D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg (Bandwidth settings)  
-D:\Games\Arma3\A3Master\MPMissions\ (This is where custom made mission.pbo's need to be placed)  
-D:\Games\Arma3\A3Master\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)  
-D:\Games\Arma3\A3Master\CONFIG_server.cfg (Manually created)  
-D:\Games\Arma3\A3Files\Arma3server_steamcmd_example.cmd (Manually created)  
-D:\Apps\Steam\  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\myserver.Arma3Profile (Difficulty settings)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\myserver.vars.Arma3Profile (Some binarised content which you cannot edit)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg (Bandwidth settings)  
+D:\Steam\steamapps\common\Arma 3\MPMissions\ (This is where custom made mission.pbo's need to be placed)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg (Manually created)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)  
+D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)  
 
 --------------------------------------------------------------------------
 SERVER ADMIN COMMANDS
