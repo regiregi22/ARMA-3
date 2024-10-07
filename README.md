@@ -1,3 +1,15 @@
+# ARMA 3 CONFIGURATION GUIDE  
+
+## CLIENT  
+-----------------------------
+### STARTING PARAMETERS:  
+
+
+
+
+"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
+
+
 --------------------------------------------------------------------------  
 SERVER NETWORK CONFIG:  
 
@@ -15,7 +27,6 @@ SERVER NETWORK CONFIG:
 2306 (BattlEye traffic, +4)  
 27015 (STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
 
-
 --------------------------------------------------------------------------
 ARMA SERVER MONITOR:
 https://github.com/dayz9998jp/ASM
@@ -24,11 +35,7 @@ https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tuto
 
 
 --------------------------------------------------------------------------
-STARTING PARAMETERS
 
--CLIENT
------------------------------
-"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
 -SERVER
 -----------------------------
