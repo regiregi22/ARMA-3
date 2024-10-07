@@ -37,10 +37,4 @@ class DifficultyPresets
 		precisionAI=0.01;
 	};
 };
-sceneComplexity=100000;
-shadowZDistance=100;
-viewDistance=3000;
-preferredObjectViewDistance=1600;
-pipViewDistance=500;
-terrainGrid=3.125;
 
