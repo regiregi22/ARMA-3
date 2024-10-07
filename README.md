@@ -3,7 +3,7 @@
 ## CLIENT  
 
 ### Arma 3 Client Performance Tuning:  
-
+-----------------------------
 All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU (Nvidia), and at least 16Gb of RAM.
 
 1- Go to Steam > Settings > In-Game, tick In-game FPS counter, tick high contrast colour. Optional FPS counter to aid in tunning settings.
