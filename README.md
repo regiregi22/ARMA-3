@@ -88,9 +88,9 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 // -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one. Seems to be better without it.  
 // -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50). 
 
-
-### Arma 3 Server Headless Client:  
 -----------------------------
+### Arma 3 Server Headless Client:  
+
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -nosound -port=2302 -password=1234 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx"
 
 
