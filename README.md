@@ -113,7 +113,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
 
 ### Arma 3 Server Admin Commands:  
 
--Server Management
+### Server Management:
 
     #login <password> : Admin login
     #logout : Admin logout
@@ -130,7 +130,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
     #Init : Reloads file defined by -config command line parameter
 
 
--Player Management
+### Player Management:
 
     #userlist : Displays the list of users on the server (use pgup to scroll up)
     #kick <Server Player ID> (First entry for a player using #userlist)
@@ -149,7 +149,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
 	#beclient <guid> : Show your own GUID.
 
 
--Debugging
+### Debugging:
 
     #monitor 10 : Activates the server monitor which reports Bandwidth and memory useage Every * seconds via chat window)
 	#monitords : Shows performance information in the dedicated server console. Interval 0 means to stop monitoring. 
