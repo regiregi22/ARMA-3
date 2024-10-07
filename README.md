@@ -2,7 +2,7 @@
 
 ## CLIENT  
 
-### Arma 3 Performance Tuning:  
+### Arma 3 Client Performance Tuning:  
 
 All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU (Nvidia), and at least 16Gb of RAM.
 
@@ -51,14 +51,13 @@ https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 20- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
------------------------------
 ### Arma 3 Client Launch Parameters:  
 
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
+## SERVER 
 
---------------------------------------------------------------------------  
-SERVER NETWORK CONFIG:  
+### Arma 3 Server Network Configuration:  
 
 1- Add on Window's Firewall the rules for the application "arma3server_x64.exe", and allow it both on "Private" and "Public" networks.
 
@@ -74,15 +73,7 @@ SERVER NETWORK CONFIG:
 2306 (BattlEye traffic, +4)  
 27015 (STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
 
---------------------------------------------------------------------------
-ARMA SERVER MONITOR:
-https://github.com/dayz9998jp/ASM
-
-https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tutorials-compilation-list/
-
---------------------------------------------------------------------------
-
--SERVER
+### Arma 3 Server Launch Parameters:  
 -----------------------------
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
 
