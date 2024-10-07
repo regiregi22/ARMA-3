@@ -86,7 +86,7 @@ https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tuto
 
 -SERVER
 -----------------------------
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -world=empty -port=2302 -hugePages
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -skipIntro -enableHT -noSplash -noPause -noPauseAudio -netlog -loadMissionToMemory -bandwidthAlg=2 -limitFPS=144
 
 // -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
 // -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
@@ -98,10 +98,7 @@ https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tuto
 // -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one.  
 // -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50).  
 
-Comparar el server con el client y homogeneizar  
-
-Ver si es lo mismo que el "mp statistics.log"  
-Lo mismo con el RPT  
+Ver si es lo mismo que el "mp statistics.log"   
 Lo mismo con el Console Logfile  
 
 
