@@ -49,29 +49,26 @@ STARTING PARAMETERS
 -----------------------------
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
-
-
-
 -SERVER
 -----------------------------
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -world=empty -port=2302 -hugePages
 
-// -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.
-// -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.
-// -netlog - Enables multiplayer network traffic logging.
-// -serverMod= - Loads the specified sub-folders for different server-side (not broadcasted to clients) mods. 
-// -filePatching - Add only if needed, like if using "userconfig/cba_settings.sqf"
-// -battleyeLicense=1 ?????borrar???
-// -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"
-// -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles,
-// -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one.
-// -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50).
+// -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
+// -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
+// -netlog - Enables multiplayer network traffic logging.  
+// -serverMod= - Loads the specified sub-folders for different server-side (not broadcasted to clients) mods.  
+// -filePatching - Add only if needed, like if using "userconfig/cba_settings.sqf"  
+// -battleyeLicense=1 ?????borrar???  
+// -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
+// -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles.  
+// -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one.  
+// -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50).  
 
-Comparar el server con el client y homogeneizar
+Comparar el server con el client y homogeneizar  
 
-Ver si es lo mismo que el "mp statistics.log"
-Lo mismo con el RPT
-Lo mismo con el Console Logfile
+Ver si es lo mismo que el "mp statistics.log"  
+Lo mismo con el RPT  
+Lo mismo con el Console Logfile  
 
 
 -HEADLESS CLIENT
@@ -84,29 +81,26 @@ NITRADO LINEA:
 
 
 
-PDTE GENERAR LAS LINEAS DE ARRANQUE DE LOS AUTOBATS PARA SERVER Y EL HC
-https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters
+PDTE GENERAR LAS LINEAS DE ARRANQUE DE LOS AUTOBATS PARA SERVER Y EL HC  
+https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
 
-5-Crear el .bat de arranque con:
+5-Crear el .bat de arranque con:  
 
-
-
-
-D:\Games\Arma3\A3Master\Users\Adminstrator\Administrator.Arma3Profile
-D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg
+D:\Games\Arma3\A3Master\Users\Adminstrator\Administrator.Arma3Profile  
+D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg  
 
 
 --------------------------------------------------------------------------
 FILE LOCATIONS
 
-D:\Games\Arma3\A3Master\Users\Administrator\Administrator.Arma3Profile (Difficulty settings)
-D:\Games\Arma3\A3Master\Users\Administrator\Administrator.vars.Arma3Profile (Some binarised content which you cannot edit)
-D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg (Bandwidth settings)
-D:\Games\Arma3\A3Master\MPMissions\ (This is where custom made mission.pbo's need to be placed)
-D:\Games\Arma3\A3Master\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)
-D:\Games\Arma3\A3Master\CONFIG_server.cfg (Manually created)
-D:\Games\Arma3\A3Files\Arma3server_steamcmd_example.cmd (Manually created)
-D:\Apps\Steam\
+D:\Games\Arma3\A3Master\Users\Administrator\Administrator.Arma3Profile (Difficulty settings)  
+D:\Games\Arma3\A3Master\Users\Administrator\Administrator.vars.Arma3Profile (Some binarised content which you cannot edit)  
+D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg (Bandwidth settings)  
+D:\Games\Arma3\A3Master\MPMissions\ (This is where custom made mission.pbo's need to be placed)  
+D:\Games\Arma3\A3Master\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)  
+D:\Games\Arma3\A3Master\CONFIG_server.cfg (Manually created)  
+D:\Games\Arma3\A3Files\Arma3server_steamcmd_example.cmd (Manually created)  
+D:\Apps\Steam\  
 
 --------------------------------------------------------------------------
 SERVER ADMIN COMMANDS
