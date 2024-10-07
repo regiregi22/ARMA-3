@@ -91,17 +91,9 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Server Headless Client:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -nosound -port=2302 -password=1234 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx"
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx" 
 
-
-NITRADO LINEA:
-== "C:\SERVICES\ni4816181_1_SHARE\ftproot\arma3\arma3server_x64.exe" -mod="@ace;@CBA_A3;@Enhanced Movement;@Enhanced Movement Rework;@RHSAFRF;@RHSGREF;@RHSSAF;@RHSUSAF;@Task Force Arrowhead Radio BETA;@Advanced Sling Loading;@Immersion Cigs;@Zeus Enhanced;@Fawks' Enhanced NVGs;@ILBE Assault Pack - Rewrite;@ACSTG AI Cannot See Through Grass;" -serverMod="" -ip=46.251.234.146 -port=18000 -maxmem=2048 -hugePages -enableHT -malloc=tbb4malloc_bi -profiles=config -config=config/server.cfg -cfg=config/basic.cfg -name=arma3 -loadMissionToMemory
-
-
-
-PDTE GENERAR LAS LINEAS DE ARRANQUE DE LOS AUTOBATS PARA SERVER Y EL HC  
-https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
-
+-----------------------------
 5-Crear el .bat de arranque con:  
 
 D:\Games\Arma3\A3Master\Users\Adminstrator\Administrator.Arma3Profile  
