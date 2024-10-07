@@ -76,7 +76,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Server Launch Parameters:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
 
 // -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
 // -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
