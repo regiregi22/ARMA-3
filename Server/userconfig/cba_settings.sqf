@@ -25,7 +25,7 @@ force force ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage
 force force ace_vehicle_damage_enableCarDamage = false;
-force force ace_vehicle_damage_enabled = true;
+force force ace_vehicle_damage_enabled = false;
 force force ace_vehicle_damage_removeAmmoDuringCookoff = true;
 
 // ACE AI
@@ -416,7 +416,7 @@ force force ace_medical_blood_bloodLifetime = 900;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 500;
 force force ace_medical_deathChance = 0;
-force force ace_medical_dropWeaponUnconsciousChance = 0.25;
+force force ace_medical_dropWeaponUnconsciousChance = 0;
 force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_engine_damagePassThroughEffect = 1;
 force force ace_medical_fatalDamageSource = 0;
