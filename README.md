@@ -31,10 +31,11 @@ All below settings are optional, but they will provide better performance or imp
 
 12- Open Windows' settings "Gaming", then "Game Bar", then "Allow your controller to open Game Bar" to OFF.
 
-13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance".
+13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Set "Anisotropic filtering" to 16x, "Vertical Sync" to On, 
 
+Max Frame Rate 141Hz
 
-meter lo del nvidia panel
+14- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, Program Settings, and add "arma3_x64.exe". 
 
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
