@@ -85,13 +85,10 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 // -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
 // -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles.  
 // -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one. Seems to be better without it.  
-// -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50).  
-
-Ver si es lo mismo que el "mp statistics.log"   
-Lo mismo con el Console Logfile  
+// -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50). 
 
 
--HEADLESS CLIENT
+### Arma 3 Server Headless Client:  
 -----------------------------
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -nosound -port=2302 -password=1234 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx"
 
