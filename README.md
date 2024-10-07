@@ -80,13 +80,11 @@ https://github.com/dayz9998jp/ASM
 
 https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tutorials-compilation-list/
 
-
 --------------------------------------------------------------------------
-
 
 -SERVER
 -----------------------------
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -bandwidthAlg=2 -limitFPS=144
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" "-ranking=D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
 
 // -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
 // -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
@@ -95,7 +93,7 @@ https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tuto
 // -filePatching - Add only if needed, like if using "userconfig/cba_settings.sqf"  
 // -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
 // -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles.  
-// -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one.  
+// -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one. Seems to be better without it.  
 // -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50).  
 
 Ver si es lo mismo que el "mp statistics.log"   
