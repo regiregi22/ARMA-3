@@ -98,7 +98,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
 
-### File Locations:  
+### Arma 3 Server File Locations:  
 
 D:\Steam\steamapps\common\Arma 3\MyArmaServer\myserver.Arma3Profile (Difficulty settings)  
 D:\Steam\steamapps\common\Arma 3\MyArmaServer\myserver.vars.Arma3Profile (Some binarised content which you cannot edit)  
@@ -109,14 +109,11 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg (Manually created)
 D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)  
 D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)  
 
---------------------------------------------------------------------------
-SERVER ADMIN COMMANDS
+-----------------------------
 
-you can use the admin command #monitor
+### Arma 3 Server Admin Commands:  
 
-https://community.bistudio.com/wiki/Multiplayer_Server_Commands
-
-SERVER MANAGEMENT
+-Server Management
 
     #login <password> : Admin login
     #logout : Admin logout
@@ -133,7 +130,7 @@ SERVER MANAGEMENT
     #Init : Reloads file defined by -config command line parameter
 
 
-PLAYER MANAGEMENT
+-Player Management
 
     #userlist : Displays the list of users on the server (use pgup to scroll up)
     #kick <Server Player ID> (First entry for a player using #userlist)
@@ -152,7 +149,7 @@ PLAYER MANAGEMENT
 	#beclient <guid> : Show your own GUID.
 
 
-DEBUGGING
+-Debugging
 
     #monitor 10 : Activates the server monitor which reports Bandwidth and memory useage Every * seconds via chat window)
 	#monitords : Shows performance information in the dedicated server console. Interval 0 means to stop monitoring. 
@@ -168,26 +165,21 @@ DEBUGGING
     #debug JIPQueue <username>
     #debug totalSent 10 
 	
-	
-	
 --------------------------------------------------------------------------
 
+### Arma 3 Configuration References:  
 
-
-
-
-
-More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting  
-More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Config_File  
-More information at: https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server  
-More information at: https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Headless_Client  
+https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
+https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation  
+https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting  
+https://community.bistudio.com/wiki/Multiplayer_Server_Commands  
+https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings  
+https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
+https://community.bistudio.com/wiki/Arma_3:_Server_Config_File  
+https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names  
+https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server  
+https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery  
+https://community.bistudio.com/wiki/Arma_3:_Headless_Client  
 More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile  
 More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting  
 More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts  
