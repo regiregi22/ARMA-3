@@ -110,7 +110,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)
 D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)  
 
 -----------------------------
--You have to be logged in as "admin" in order to use those commands.
+You have to be logged in as "admin" in order to use those commands
 
 ### Server Management Commands:
 
