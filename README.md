@@ -1,7 +1,7 @@
 # ARMA 3 CONFIGURATION GUIDE  
 
 ## CLIENT  
------------------------------
+
 ### Arma 3 Client Performance Tuning:  
 
 All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU (Nvidia), and at least 16Gb of RAM.
