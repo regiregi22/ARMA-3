@@ -1,7 +1,6 @@
 # ARMA 3 CONFIGURATION GUIDE  
 
 ## CLIENT  
-
 -----------------------------
 ### Arma 3 Client Performance Tuning:  
 
