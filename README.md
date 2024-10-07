@@ -180,9 +180,9 @@ https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names
 https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server  
 https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery  
 https://community.bistudio.com/wiki/Arma_3:_Headless_Client  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting  
-More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts  
-More information at: https://community.bistudio.com/wiki/server.armaprofile  
-More information at: https://community.bistudio.com/wiki/Description.ext  
-More information at: https://community.bistudio.com/wiki/BattlEye  
+https://community.bistudio.com/wiki/Arma_3:_Server_Profile  
+https://community.bistudio.com/wiki/Arma_3:_Mission_Voting  
+https://community.bistudio.com/wiki/Biki_Export_Scripts  
+https://community.bistudio.com/wiki/server.armaprofile  
+https://community.bistudio.com/wiki/Description.ext  
+https://community.bistudio.com/wiki/BattlEye  
