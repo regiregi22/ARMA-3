@@ -1,15 +1,3 @@
-version=1;
-blood=1;
-singleVoice=0;
-gamma=1;
-brightness=1;
-ppBrightness=1.01;
-ppContrast=1.0599999;
-ppSaturation=1.08;
-playedKeys[]=
-{
-	"BIS_Showcase_FiringFromVehicles.Altis_done"
-};
 class DifficultyPresets
 {
 	class CustomDifficulty
@@ -54,12 +42,5 @@ shadowZDistance=100;
 viewDistance=3000;
 preferredObjectViewDistance=1600;
 pipViewDistance=500;
-terrainGrid=3;
-volumeCD=5;
-volumeFX=5;
-volumeSpeech=5;
-volumeVoN=10;
-vonRecThreshold=0.029999999;
-volumeMapDucking=1;
-volumeUI=1;
+terrainGrid=3.125;
 
