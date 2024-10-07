@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------  
-SERVER NETWORKING CONFIG:  
+SERVER NETWORK CONFIG:  
 
 1- Add on Window's Firewall the rules for the application "arma3server_x64.exe", and allow it both on "Private" and "Public" networks.
 
