@@ -2,10 +2,48 @@
 
 ## CLIENT  
 -----------------------------
-### STARTING PARAMETERS:  
+### Arma 3 Performance Tuning:  
+
+Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
+
+-Go to Steam > Settings > In-Game, check In-game FPS counter.
+
+-Go to C:\Users\[your_username]\Documents\Arma 3. Open Arma3.cfg with text editor, If you have monitor with refresh rate above 60Hz, set refresh to your refresh rate (for example: refresh=144;). Save changes and close file. 
+Optional, for reducing display lag from 3 to 1 frames (at the expense of lower median fps and more framespikes), set "GPU_MaxFramesAhead=1" and "GPU_DetectedFramesAhead=1" (Nvidia Control Panel names it as "Low Latency Mode", more info here: https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/#mprf-101).
+
+-Go to C:\Users\[your_username]\Documents\Arma 3. Open [your_username].Arma3Profile with text editor, set "mouseSmoothing=0" and "mouseAcceleration=0". Save changes and close file.
+
+-Open Steam, select ARMA 3, Properties (right mouse button on ARMA 3 in library), go to BETA tab, select "profiling - Performance Profiling Build". (IMPORTANT: When new arma version comes out you will need to switch back to default branch from performance one (select "default" instead of "profiling") or otherwise game will crash).
+
+-Start ARMA 3 Launcher, open Options (upper right corner), select Launcher Options, set "Action after game start" to "Close Launcher after clicking Play".
+
+-Start ARMA 3 Launcher, select PARAMETERS and go to ALL PARAMETERS tab. Set "Platform" to "64-bit", tick "Show static background in menu", tick "Skip logos at startup", Set "Memory allocator (64-bit)" to "Intel TBB 4 allocator - 64 bit", tick "Enable Large-page Support", tick "No Logs", set "World" to "empty", tick "No Pause", tick "No Pause Audio".
+
+-Start Process Lasso (https://bitsum.com), start ARMA 3 (game, not launcher). In Process Lasso, click with right mouse button on "arma3_64x.exe" -> CPU Priority -> Always -> High. Click with right mouse button on "arma3_64x.exe" process -> CPU affinity -> Always -> Untick CPU 0.
+
+
+-"Bitsum Highest Performance Mode" es mejor que "ultimate performance mode.
+I just realized something -- in the "Bitsum Highest Performance" plan, the setting "USB Selective Suspend" is enabled, 
 
 
 
+Windows 11 DVR - LWin+G
+Click Windows Start, execute regedit.exe as admin, 
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR and change "AppCaptureEnabled" from 1 to 0.
+HKEY_CURRENT_USER\System\GameConfigStore and change "GameDVR_Enabled" from 1 to 0.
+
+-Disable Cortana. Windows Settings, Apps, Installed Apps, search Cortana, Advanced options, "Never" Let this app run in background.
+-Uninstall "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link", "Tips"
+
+Game mode ON
+Game Bar - Allow controller to open game bar
+
+meter lo del nvidia panel
+
+y la gestion de energia
+
+-----------------------------
+### Starting parameters:  
 
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
@@ -152,45 +190,7 @@ DEBUGGING
 	
 	
 --------------------------------------------------------------------------
-ARMA 3 PERFORMANCE
 
-Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
-
--Go to Steam > Settings > In-Game, check In-game FPS counter.
-
--Go to C:\Users\[your_username]\Documents\Arma 3. Open Arma3.cfg with text editor, If you have monitor with refresh rate above 60Hz, set refresh to your refresh rate (for example: refresh=144;). Save changes and close file. 
-Optional, for reducing display lag from 3 to 1 frames (at the expense of lower median fps and more framespikes), set "GPU_MaxFramesAhead=1" and "GPU_DetectedFramesAhead=1" (Nvidia Control Panel names it as "Low Latency Mode", more info here: https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/#mprf-101).
-
--Go to C:\Users\[your_username]\Documents\Arma 3. Open [your_username].Arma3Profile with text editor, set "mouseSmoothing=0" and "mouseAcceleration=0". Save changes and close file.
-
--Open Steam, select ARMA 3, Properties (right mouse button on ARMA 3 in library), go to BETA tab, select "profiling - Performance Profiling Build". (IMPORTANT: When new arma version comes out you will need to switch back to default branch from performance one (select "default" instead of "profiling") or otherwise game will crash).
-
--Start ARMA 3 Launcher, open Options (upper right corner), select Launcher Options, set "Action after game start" to "Close Launcher after clicking Play".
-
--Start ARMA 3 Launcher, select PARAMETERS and go to ALL PARAMETERS tab. Set "Platform" to "64-bit", tick "Show static background in menu", tick "Skip logos at startup", Set "Memory allocator (64-bit)" to "Intel TBB 4 allocator - 64 bit", tick "Enable Large-page Support", tick "No Logs", set "World" to "empty", tick "No Pause", tick "No Pause Audio".
-
--Start Process Lasso (https://bitsum.com), start ARMA 3 (game, not launcher). In Process Lasso, click with right mouse button on "arma3_64x.exe" -> CPU Priority -> Always -> High. Click with right mouse button on "arma3_64x.exe" process -> CPU affinity -> Always -> Untick CPU 0.
-
-
--"Bitsum Highest Performance Mode" es mejor que "ultimate performance mode.
-I just realized something -- in the "Bitsum Highest Performance" plan, the setting "USB Selective Suspend" is enabled, 
-
-
-
-Windows 11 DVR - LWin+G
-Click Windows Start, execute regedit.exe as admin, 
-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR and change "AppCaptureEnabled" from 1 to 0.
-HKEY_CURRENT_USER\System\GameConfigStore and change "GameDVR_Enabled" from 1 to 0.
-
--Disable Cortana. Windows Settings, Apps, Installed Apps, search Cortana, Advanced options, "Never" Let this app run in background.
--Uninstall "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link", "Tips"
-
-Game mode ON
-Game Bar - Allow controller to open game bar
-
-meter lo del nvidia panel
-
-y la gestion de energia
 
 
 
