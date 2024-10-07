@@ -55,6 +55,8 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
+-----------------------------
+
 ## SERVER 
 
 ### Arma 3 Server Network Configuration:  
@@ -94,13 +96,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -enableHT -name=HC -profile=HC -mod="xxx" 
 
 -----------------------------
-5-Crear el .bat de arranque con:  
 
-D:\Games\Arma3\A3Master\Users\Adminstrator\Administrator.Arma3Profile  
-D:\Games\Arma3\A3Master\Users\Administrator\Arma3.cfg  
-
-
---------------------------------------------------------------------------
 FILE LOCATIONS
 
 D:\Games\Arma3\A3Master\Users\Administrator\Administrator.Arma3Profile (Difficulty settings)  
