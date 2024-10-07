@@ -4,8 +4,7 @@
 -----------------------------
 ### Arma 3 Performance Tuning:  
 
-Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
-All below settings are optional, but they will provide better performance or improve usage characteristics.
+All below settings are optional, but they will provide better performance or improve usage characteristics for Arma 3. Those settings are set for Windows 11 and a fairly new high performance computer, with a good CPU and GPU, and at least 16Gb of RAM.
 
 1- Go to Steam > Settings > In-Game, tick In-game FPS counter, tick high contrast colour. Optional FPS counter to aid in tunning settings.
 
@@ -28,12 +27,18 @@ All below settings are optional, but they will provide better performance or imp
 
 -10 Optional, uninstall any uneeded applications that comes with Windows from "Add or remove programs": "Cortana", "News", "Start Experiences App", "Power Automate", "Weather", "Clipchamp", "365 (Office)", "Widgets Platform Runtime", "Quick assist", "Feedback Hub", "Snipping tool", "Sticky notes", "Web Search from Microsoft Bing", "Microsoft To Do", "People, "Maps", "OneDrive", "Movies & TV", "Phone Link" and "Tips".
 
-Game mode ON
-Game Bar - Allow controller to open game bar
+11- Open Windows' settings "Gaming", then "Game Mode settings" and make sure it is ON.  
+
+12- Open Windows' settings "Gaming", then "Game Bar", then "Allow your controller to open Game Bar" to OFF.
+
+13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance".
+
 
 meter lo del nvidia panel
 
-y la gestion de energia
+Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
+
+
 
 -----------------------------
 ### Starting parameters:  
