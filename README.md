@@ -52,9 +52,9 @@ https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
 -----------------------------
-### Starting parameters:  
+### Arma 3 Client Launch Parameters:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
+"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
 
 --------------------------------------------------------------------------  
@@ -93,7 +93,6 @@ https://forums.bohemia.net/forums/topic/229229-server-administration-guides-tuto
 // -netlog - Enables multiplayer network traffic logging.  
 // -serverMod= - Loads the specified sub-folders for different server-side (not broadcasted to clients) mods.  
 // -filePatching - Add only if needed, like if using "userconfig/cba_settings.sqf"  
-// -battleyeLicense=1 ?????borrar???  
 // -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
 // -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles.  
 // -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one.  
