@@ -111,7 +111,7 @@ D:\Steam\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
 
 -----------------------------
 
-### Arma 3 Server Admin Commands:  
+### Arma 3 Server Admin Commands  
 
 ### Server Management:
 
