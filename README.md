@@ -1,38 +1,19 @@
-More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting  
-More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Config_File  
-More information at: https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server  
-More information at: https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Headless_Client  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile  
-More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting  
-More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts  
-More information at: https://community.bistudio.com/wiki/server.armaprofile  
-More information at: https://community.bistudio.com/wiki/Description.ext  
-More information at: https://community.bistudio.com/wiki/BattlEye  
-
 --------------------------------------------------------------------------  
 SERVER NETWORKING CONFIG:  
 
--Añadir en Firewall de windows añadir las app "arma3server_x64.exe" y el "arma3_x64.exe", permitir ambas tanto en "Private" como "Public".  
+1- Add on Window's Firewall the rules for the application "arma3server_x64.exe", and allow it both on "Private" and "Public" networks.
 
--En opciones avanzadas de Windows Firewall, en cada una de las dos reglas de las dos app anteriores (4 en total), habilitar el "Allow edge traversal".  
+2- On Windows' Firewall Advanced Settings, look for the two rules of "arma3server_x64.exe", and enable on both of them the setting "Allow edge traversal".  
 
--Set the ICMP "echo reply" as allowed so the server is able return ping delay properly (https://manage.accuwebhosting.com/knowledgebase/2609/How-to-Allow-Pingor-ICMP-Echo-Request-in-Windows-Firewall.html)  
+3- Set the ICMP "echo reply" as allowed so the server is able return ping delay properly (https://manage.accuwebhosting.com/knowledgebase/2609/How-to-Allow-Pingor-ICMP-Echo-Request-in-Windows-Firewall.html)  
 
-
-(Hacer forwarding NAT en router, todos en TCP y UDP):  
+4- NAT forward those six ports on both TCP and UDP. uPnP could be used instead, but it is better to NAT them:
 2302 (default Arma 3 Game port) + (VON is now part of main gameport due to NAT issues)  
 2303 (STEAM query, +1)  
 2304 (Steam port, +2)  
 2305 (VON port, +3 - not used atm. but allocated)  
 2306 (BattlEye traffic, +4)  
-27015 (STEAM puerto Rcon de SRCDS en TCP, y tráfico de juegos en UDP)  
+27015 (STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
 
 
 --------------------------------------------------------------------------
@@ -203,3 +184,25 @@ Game Bar - Allow controller to open game bar
 meter lo del nvidia panel
 
 y la gestion de energia
+
+
+
+
+
+More information at: https://community.bistudio.com/wiki/Arma_3:_Basic_Server_Config_File  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Side_Scripting  
+More information at: https://community.bistudio.com/wiki/Multiplayer_Server_Commands  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Difficulty_Settings  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Startup_Parameters  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Config_File  
+More information at: https://community.bistudio.com/wiki/Arma_3:_MP_Mission_Names  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server  
+More information at: https://community.bistudio.com/wiki/Arma_3:_STEAMWORKSquery  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Headless_Client  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Server_Profile  
+More information at: https://community.bistudio.com/wiki/Arma_3:_Mission_Voting  
+More information at: https://community.bistudio.com/wiki/Biki_Export_Scripts  
+More information at: https://community.bistudio.com/wiki/server.armaprofile  
+More information at: https://community.bistudio.com/wiki/Description.ext  
+More information at: https://community.bistudio.com/wiki/BattlEye  
