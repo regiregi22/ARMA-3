@@ -31,7 +31,7 @@ All below settings are optional, but they will provide better performance or imp
 
 12- Open Windows' settings "Gaming", then "Game Bar", then "Allow your controller to open Game Bar" to OFF.  
 
-13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance".  
+13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Click on "Default graphics settings" and set to ON the three settings.
 
 14- If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible.  
 
