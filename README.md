@@ -49,7 +49,7 @@ https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
 21- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
-
+-----------------------------
 ### Arma 3 Client Launch Parameters:  
 
 "D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
