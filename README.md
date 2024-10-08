@@ -93,7 +93,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Server Headless Client:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -enableHT -name=HC -profile=HCprofile -mod="xxx" -limitFPS=144  
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -limitFPS=144 -enableHT -name=HC -profile=HCprofile -mod="xxx"
 
 -----------------------------
 # REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
