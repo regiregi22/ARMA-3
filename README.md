@@ -32,8 +32,6 @@ All below settings are optional, but they will provide better performance or imp
 
 13- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Click on "Default graphics settings" and set to ON the three settings.
 
-14- 
-
 15- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, Program Settings, and add "arma3_x64.exe". Set "Anisotropic filtering" to 16x, "Vertical Sync" to On, "Power Management Mode" to High Performance, "Shader Cache Size" to 10 Gb and "Texture filtering - Quality" to High quality. If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible. Then go to Display, Set-up G-SYNC, tick "Enable G-SYNC", tick "Enable for windowed and full screen mode", select your display and tick "Enable settings for the selected display model". Make sure you activate G-SYNC/Freesync on your monitor buttons menu.  
 
 16- Press Start button, search "Core Isolation", set "Memory integrity" to OFF.
