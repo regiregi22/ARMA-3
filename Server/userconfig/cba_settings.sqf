@@ -897,8 +897,8 @@ force force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force force TFAR_spectatorCanHearEnemyUnits = true;
 force force TFAR_spectatorCanHearFriendlies = true;
 force force TFAR_takingRadio = 2;
-force force TFAR_Teamspeak_Channel_Name = "Liberation";
-force force TFAR_Teamspeak_Channel_Password = "1234";
+force force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
+force force TFAR_Teamspeak_Channel_Password = "12345";
 force force tfar_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
