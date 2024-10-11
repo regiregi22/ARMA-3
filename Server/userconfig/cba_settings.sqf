@@ -1178,5 +1178,3 @@ force force zen_faction_filter_2_Opf_IND_I_F = true;
 force force zen_faction_filter_2_Police_IND_P_F = true;
 force force zen_faction_filter_3_CIV_F = true;
 force force zen_faction_filter_3_CIV_IDAP_F = true;
-
-
