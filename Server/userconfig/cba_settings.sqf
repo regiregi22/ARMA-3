@@ -354,7 +354,7 @@ ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_remoteTeamManagement = fal
 ace_interact_menu_moveToRoot__ACE_TeamManagement__ACE_RenameGroup = false;
 
 // ACE Kill Tracker
-force force ace_killtracker_showCrewKills = false;
+force force ace_killtracker_showCrewKills = true;
 force force ace_killtracker_trackAI = true;
 
 // ACE Logistics
@@ -670,8 +670,8 @@ force force ace_fastroping_autoAddFRIES = true;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
-force force ace_hitreactions_weaponDropChanceArmHitAI = 0;
-force force ace_hitreactions_weaponDropChanceArmHitPlayer = 0;
+force force ace_hitreactions_weaponDropChanceArmHitAI = 0.5;
+force force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.5;
 ace_inventory_inventoryDisplaySize = 0;
 force force ace_laser_dispersionCount = 2;
 force force ace_laser_showLaserOnMap = 3;
@@ -787,6 +787,14 @@ force force ace_zeus_remoteWind = false;
 force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
+
+// Antistasi Ultimate
+force force A3U_setting_enableAdvancedTowing = true;
+force force A3U_setting_enableCosmetics = true;
+force force A3U_setting_tierWarElite = 8;
+force force A3U_setting_tierWarHRLoss = 2;
+force force A3U_setting_tierWarMilitia = 3;
+force force A3U_setting_tierWarPunishments = 3;
 
 // Community Base Addons
 cba_diagnostic_ConsoleIndentType = -1;
