@@ -807,6 +807,14 @@ cba_optics_usePipOptics = true;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
+// CUP
+force force CUP_CheckCfgPatches = false;
+force force CUP_Vehicles_PreventBarrelClip = true;
+
+// CUP Static Weapons
+force force CUP_staticWeapons_allowMovement = false;
+force force CUP_staticWeapons_allowRotation = false;
+
 // Enhanced Movement Rework
 force force emr_main_allowClimbOnStandingUnits = false;
 force force emr_main_allowMidairClimbing = true;
@@ -1109,48 +1117,66 @@ force force zen_faction_filter_2_rhssaf_faction_un = true;
 force force zen_faction_filter_3_CIV_F = true;
 force force zen_faction_filter_3_CIV_IDAP_F = true;
 force force zen_faction_filter_3_IND_L_F = true;
+force force zen_faction_filter_0_Athena_OPF_T_F = true;
+force force zen_faction_filter_0_Atlas_OPF_T_F = true;
+force force zen_faction_filter_0_Atlas_OPF_V_wdl_F = true;
+force force zen_faction_filter_0_Atlas_OPF_W_F = true;
+force force zen_faction_filter_0_OPF_A_F = true;
+force force zen_faction_filter_0_OPF_CD_F = true;
+force force zen_faction_filter_0_OPF_F = true;
+force force zen_faction_filter_0_OPF_G_F = true;
+force force zen_faction_filter_0_OPF_GEN_F = true;
+force force zen_faction_filter_0_Opf_OPF_P_F = true;
+force force zen_faction_filter_0_Opf_OPF_S_F = true;
+force force zen_faction_filter_0_OPF_R_ard_F = true;
+force force zen_faction_filter_0_OPF_R_F = true;
+force force zen_faction_filter_0_OPF_Raven_F = true;
+force force zen_faction_filter_0_OPF_SFIA_lxWS = true;
+force force zen_faction_filter_0_OPF_T_F = true;
+force force zen_faction_filter_0_OPF_TURA_lxWS = true;
+force force zen_faction_filter_0_OPF_V_F = true;
+force force zen_faction_filter_0_OPF_V_tna_F = true;
+force force zen_faction_filter_1_Athena_BLU_G_F = true;
+force force zen_faction_filter_1_Atlas_BLU_A_ard_F = true;
+force force zen_faction_filter_1_Atlas_BLU_A_F = true;
+force force zen_faction_filter_1_Atlas_BLU_A_trp_F = true;
+force force zen_faction_filter_1_Atlas_BLU_G_ard_F = true;
+force force zen_faction_filter_1_Atlas_BLU_G_F = true;
+force force zen_faction_filter_1_Atlas_BLU_H_F = true;
+force force zen_faction_filter_1_Atlas_BLU_L_F = true;
+force force zen_faction_filter_1_Atlas_BLU_M_F = true;
+force force zen_faction_filter_1_BLU_A_F = true;
+force force zen_faction_filter_1_BLU_A_tna_F = true;
+force force zen_faction_filter_1_BLU_A_wdl_F = true;
+force force zen_faction_filter_1_BLU_CTRG_F = true;
+force force zen_faction_filter_1_BLU_CTRG_tna_F = true;
+force force zen_faction_filter_1_BLU_EAF_F = true;
+force force zen_faction_filter_1_BLU_F = true;
+force force zen_faction_filter_1_BLU_G_F = true;
+force force zen_faction_filter_1_BLU_GEN_F = true;
+force force zen_faction_filter_1_BLU_ION_lxWS = true;
+force force zen_faction_filter_1_BLU_NATO_lxWS = true;
+force force zen_faction_filter_1_BLU_T_F = true;
+force force zen_faction_filter_1_BLU_TURA_lxWS = true;
+force force zen_faction_filter_1_BLU_UN_lxWS = true;
+force force zen_faction_filter_1_BLU_W_F = true;
+force force zen_faction_filter_1_Marine_BLU_USMC_F = true;
+force force zen_faction_filter_1_Opf_BLU_P_F = true;
+force force zen_faction_filter_2_Atlas_IND_I_F = true;
+force force zen_faction_filter_2_Atlas_IND_UNO_F = true;
+force force zen_faction_filter_2_Atlas_IND_UNO_wdl_F = true;
+force force zen_faction_filter_2_IND_C_F = true;
+force force zen_faction_filter_2_IND_E_ard_F = true;
+force force zen_faction_filter_2_IND_E_F = true;
+force force zen_faction_filter_2_IND_F = true;
+force force zen_faction_filter_2_IND_G_F = true;
+force force zen_faction_filter_2_IND_L_F = true;
+force force zen_faction_filter_2_IND_Raven_F = true;
+force force zen_faction_filter_2_IND_SFIA_lxWS = true;
+force force zen_faction_filter_2_IND_TURA_lxWS = true;
+force force zen_faction_filter_2_Opf_IND_I_F = true;
+force force zen_faction_filter_2_Police_IND_P_F = true;
+force force zen_faction_filter_3_CIV_F = true;
+force force zen_faction_filter_3_CIV_IDAP_F = true;
 
-// CUP
-force force CUP_CheckCfgPatches = false;
-force force CUP_Vehicles_PreventBarrelClip = true;
 
-// CUP Static Weapons
-force force CUP_staticWeapons_allowMovement = false;
-force force CUP_staticWeapons_allowRotation = false;
-
-// GRAD Trenches
-force force grad_trenches_functions_allowBigEnvelope = true;
-force force grad_trenches_functions_allowCamouflage = true;
-force force grad_trenches_functions_allowDigging = true;
-force force grad_trenches_functions_allowEffects = true;
-force force grad_trenches_functions_allowGiantEnvelope = true;
-force force grad_trenches_functions_allowHitDecay = true;
-force force grad_trenches_functions_allowLongEnvelope = true;
-force force grad_trenches_functions_allowShortEnvelope = true;
-force force grad_trenches_functions_allowSmallEnvelope = true;
-force force grad_trenches_functions_allowTrenchDecay = false;
-force force grad_trenches_functions_allowVehicleEnvelope = true;
-force force grad_trenches_functions_bigEnvelopeDamageMultiplier = 2;
-force force grad_trenches_functions_bigEnvelopeDigTime = 40;
-force force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_buildFatigueFactor = 1;
-force force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
-force force grad_trenches_functions_createTrenchMarker = false;
-force force grad_trenches_functions_decayTime = 1800;
-force force grad_trenches_functions_giantEnvelopeDamageMultiplier = 1;
-force force grad_trenches_functions_giantEnvelopeDigTime = 90;
-force force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_hitDecayMultiplier = 1;
-force force grad_trenches_functions_LongEnvelopeDigTime = 100;
-force force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_shortEnvelopeDamageMultiplier = 2;
-force force grad_trenches_functions_shortEnvelopeDigTime = 15;
-force force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_smallEnvelopeDamageMultiplier = 3;
-force force grad_trenches_functions_smallEnvelopeDigTime = 30;
-force force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_stopBuildingAtFatigueMax = true;
-force force grad_trenches_functions_timeoutToDecay = 7200;
-force force grad_trenches_functions_vehicleEnvelopeDamageMultiplier = 1;
-force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
-force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
