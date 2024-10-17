@@ -166,6 +166,7 @@ force force ace_hearing_disableEarRinging = true;
 force force ace_hearing_earplugsVolume = 0.5;
 force force ace_hearing_enableCombatDeafness = false;
 force force ace_hearing_enabledForZeusUnits = true;
+force force ace_hearing_explosionDeafnessCoefficient = 1;
 force force ace_hearing_unconsciousnessVolume = 0.4;
 
 // ACE Interaction
