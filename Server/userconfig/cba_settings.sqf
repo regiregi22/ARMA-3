@@ -143,7 +143,7 @@ force force ace_frag_spallIntensity = 1;
 
 // ACE G-Forces
 force force ace_gforces_coef = 1;
-force force ace_gforces_enabledFor = 1;
+force force ace_gforces_enabledFor = 0;
 
 // ACE Goggles
 force force ace_goggles_effects = 2;
