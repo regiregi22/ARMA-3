@@ -51,7 +51,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Client Launch Parameters:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -enableHT -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
+"D:\Steam\steamapps\common\Arma 3\arma3_x64.exe" -skipIntro -noSplash -hugePages -noLogs -world=empty -noPause -noPauseAudio -malloc=tbb4malloc_bi_x64 -setThreadCharacteristics
 
 -----------------------------
 
@@ -76,9 +76,8 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Server Launch Parameters:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -enableHT -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=144
 
-// -enableHT - Prioritizes the use of HT cores for threads with minor tasks/micro jobs.  
 // -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
 // -netlog - Enables multiplayer network traffic logging.  
 // -serverMod= - Loads the specified sub-folders for different server-side (not broadcasted to clients) mods.  
@@ -91,7 +90,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -----------------------------
 ### Arma 3 Server Headless Client:  
 
-"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -limitFPS=144 -enableHT -name=HC -profile=HCprofile -mod="xxx"
+"D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" -client -connect=127.0.0.1 -skipIntro -noSplash -hugePages -nosound -port=2302 -noPause -password=1234 -malloc=tbb4malloc_bi_x64 -nologs -world=empty -limitFPS=144 -name=HC -profile=HCprofile -mod="xxx"
 
 -----------------------------
 # REVISAR CUANDO ESTE MONTADO LAS RUTAS, SI SON CORRECTAS, LAS DE LOS PERFILES SOBRETODO:
