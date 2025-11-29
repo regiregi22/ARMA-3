@@ -53,10 +53,10 @@ ace_arsenal_showUnavailableItems = 0;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = true;
-force force ace_artillerytables_disableArtilleryComputer = false;
+force force ace_artillerytables_disableArtilleryComputer = true;
 force force ace_mk6mortar_airResistanceEnabled = true;
 force force ace_mk6mortar_allowCompass = true;
-force force ace_mk6mortar_allowComputerRangefinder = true;
+force force ace_mk6mortar_allowComputerRangefinder = false;
 force force ace_mk6mortar_useAmmoHandling = true;
 
 // ACE Captives
