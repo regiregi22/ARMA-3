@@ -104,7 +104,7 @@ force force ace_csw_ammoHandling = 2;
 force force ace_csw_defaultAssemblyMode = true;
 force force ace_csw_dragAfterDeploy = true;
 force force ace_csw_handleExtraMagazines = true;
-force force ace_csw_handleExtraMagazinesType = 1;
+force force ace_csw_handleExtraMagazinesType = 0;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
