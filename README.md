@@ -145,7 +145,14 @@ You have to be logged in as "admin" in order to use those commands
 	#beclient <guid> : Show your own GUID.
 
 
-### BattleEye Commands:
+### BattleEye Commands (Local):
+
+    #beclient players : 	Displays the list of GUID's of all players on the server.
+	beclient guid : Show your own GUID.
+
+	
+
+### BattleEye Commands (RCon):
 
     loadbans : (Re)load the BE ban list from bans.txt.
     bans : Show a list of all BE server bans.
@@ -180,16 +187,33 @@ You have to be logged in as "admin" in order to use those commands
     #monitor 10 : Activates the server monitor which reports Bandwidth and memory useage Every * seconds via chat window)
 	#monitords : Shows performance information in the dedicated server console. Interval 0 means to stop monitoring. 
     #monitor 0 : Deactivates the server monitor
-    #debug off : Deactivates debugging
     #debug 30 : Debug reporting interval (Default is 10 seconds
-    #debug von
-    #debug console
+    #debug off : Deactivates debugging
+	#debug on Console : All server console prints, are forwarded to your client. Send to submitter what's on server console. Works as DebugAnswer for all writes into the console.
+    #debug on TotalSent : Every debug interval, tells you the bits per second, msg per second. Send/Receive for the whole server
+    #debug on UserSent : Every debug interval, tells you the bits per second, messages per second. Send/Receive statistics for every player
+    #debug on UserInfo : Every debug interval, some statistics, for every player
+    #debug on UserQueue : Every debug interval, Info about how many bytes/messages are currently queued up, per player
+    #debug on JIPQueue : Every debug interval, the number of messages in JIP queue's
+    #debug von : Triggers VoN debug mode. Outputs into logFile defined in server config as e.g. logFile = "server_console.log";
     #debug checkFile expansion\Dta\ui.pbo
     #debug userSent <username>
     #debug userInfo <username>
     #debug userQueue <username>
     #debug JIPQueue <username>
     #debug totalSent 10 
+
+
+### Debugging Commands:
+
+    #vote missions : Users can vote for the mission selection.
+    #vote mission (name) : Users can vote on a particular mission to loaded.
+	#vote admin (name/ID/PLR#) : Users can vote an admin to control the server.
+	#vote kick (name, ID or Player#) : Users can vote to kick off an individual.
+	#vote restart : Vote to restart the mission.
+	#vote reassign : Vote to reassign.
+	#userlist : Displays the list of users on the server (use PgUp to scroll up).
+
 	
 --------------------------------------------------------------------------
 
