@@ -145,6 +145,36 @@ You have to be logged in as "admin" in order to use those commands
 	#beclient <guid> : Show your own GUID.
 
 
+### BattleEye Commands:
+
+    loadbans : (Re)load the BE ban list from bans.txt.
+    bans : Show a list of all BE server bans.
+    ban [player #] [time in minutes] [reason] : Ban a player's BE GUID from the server. If time is not specified or 0, the ban will be permanent; if reason is not specified the player will be kicked with "Banned".
+    addban [GUID] [time in minutes] [reason] : Same as "ban", but allows to ban a player that is not currently on the server.
+    removeban [ban #] : Remove ban (get the ban # from the bans command).
+    writebans : removes expired bans from bans file
+
+    You can either enter them via BE RCon or in-game using "#beserver [command]" (if logged in as admin). For example:
+    #beserver ban 11
+    Keep in mind that the "player #" used here is the one listed by BE's "players" command.
+
+
+### RCon Commands:
+
+    loadscripts : Loads the "scripts.txt" file without the need to restart the server.
+    missions : Returns a list of the available missions on the server.
+    players : Displays a list of the players on the server including BE GUIDs and pings.
+    kick [player#] : Kicks a player. His # can be found in the player list using the "players" command.
+    rconpassword [password] : Changes the RCon password.
+    maxping [ping] : Changes the MaxPing value. If a player has a higher ping, he will be kicked from the server.
+    logout : Logout from current server, but do not exit the program.
+    exit : Closes the connection.
+    say [player#] : Say something to player #. -1 equals all players on server (e.g. "Say -1 Hello World!")
+	
+    Server commands are passed directly to server, e.g.:
+    #mission [missionName] - Loads the given mission on the server.
+
+
 ### Debugging Commands:
 
     #monitor 10 : Activates the server monitor which reports Bandwidth and memory useage Every * seconds via chat window)
