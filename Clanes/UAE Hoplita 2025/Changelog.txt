@@ -14,6 +14,7 @@ server.cfg
 -Modificado en "server.cfg" el "disableVoN = 0;" de 0 a 1 para deshbilitar el chat de voz nativo.
 -Añadido en "server.cfg" el "allowProfileGlasses = false;" para que nadie lleve gafas de serie. Solo si el editor lo considera.
 -Añadido en "server.cfg" el "overrideHazeQuality = 0;" para eliminar la neblina por defecto.
+-Añadido en "server.cfg" el "forcedDifficulty = "Custom";" por si se cambia de mision a mano, forzar esa dificultad.
 
 basic.cfg:
 -Modificado en "basic.cfg" el "MinErrorToSend" de 0.008 a 0.001.
