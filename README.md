@@ -44,10 +44,12 @@ All below settings are optional, but they will provide better performance or imp
 
 19- Restart the computer.  
 
-20- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled, set "Anisotropic filtering" to 16x. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
+20- Press Start button, search "Disk Cleanup", select C:, mark "DirectX Shader Cache" and click OK.
+
+21- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled, set "Anisotropic filtering" to 16x. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
-21- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
+22- Optional. This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
 -----------------------------
