@@ -1,0 +1,4 @@
+
+17-12-2025
+-Deshabilitado "ACE Advanced Vehicle Damage" ya que salían los vehiculos volando al explotar (ace_vehicle_damage_enabled = false;).
+
