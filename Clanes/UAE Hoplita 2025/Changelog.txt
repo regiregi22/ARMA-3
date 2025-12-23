@@ -20,5 +20,5 @@ basic.cfg:
 -Modificado en "basic.cfg" el "MinErrorToSend" de 0.008 a 0.001.
 -Modificado en "basic.cfg" el "MinErrorToSendNear" de 0.06 a 0.01.
 
-
-
+armahosts.arma3profile:
+-Modificado en "armahosts.arma3profile" el "viewDistance=1000;" a 3000. Esto aumenta el "knowAbout" entre unidades en el servidor (default Arma 3, 1600). No afecta a la distancia del cliente.
