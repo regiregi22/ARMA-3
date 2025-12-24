@@ -87,11 +87,12 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 "D:\Steam\steamapps\common\Arma 3\arma3server_x64.exe" "-profiles=D:\Steam\steamapps\common\Arma 3\MyArmaServer" "-config=D:\Steam\steamapps\common\Arma 3\MyArmaServer\server.cfg" "-cfg=D:\Steam\steamapps\common\Arma 3\MyArmaServer\basic.cfg" -mod="@xxx;@yyy" -name=myserver -port=2302 -world=empty -hugePages -noLogs -malloc=tbb4malloc_bi_x64 -skipIntro -noSplash -noPause -noPauseAudio -loadMissionToMemory -limitFPS=140 -setThreadCharacteristics
 
+// -noLogs - Disables RPT logging.  
+// -netlog - Enables multiplayer network traffic logging (creates net.log file).  
+// -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
 // -autoInit - This will break the Arma_3_Mission_Parameters function, so do not use it when you work with mission parameters.  
-// -netlog - Enables multiplayer network traffic logging.  
 // -serverMod= - Loads the specified sub-folders for different server-side (not broadcasted to clients) mods.  
 // -filePatching - Add only if needed, like if using "userconfig/cba_settings.sqf"  
-// -ranking="D:\Steam\steamapps\common\Arma 3\MyArmaServer\ranking.log"  
 // -loadMissionToMemory - Server will load mission into memory on first client downloading it. Then it keeps it pre-processed pre-cached in memory for next clients, saving some server CPU cycles.  
 // -bandwidthAlg=2 - Uses a new experimental networking algorithm that might be better than the default one. Seems to be better without it.  
 // -limitFPS=300 - Start parameter to adjust server FPS limit between 5-1000 FPS (default 50). 
@@ -111,10 +112,13 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server.cfg (Manually created)  
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)  
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)  
--D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3server_x64_*TIMESTAMP*.rpt (Debug Log, automatically created every time the arma3server.exe is started)  
--D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\mpStatistics_*NUMBER*.rpt (xxxxxxxxxxxxxxxx)  
--D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server_console_*NUMBER*.rpt (xxxxxxxxxxxxxxxx)  
 -D:\SteamLibrary\steamapps\common\Arma 3\MPMissions\ (This is where custom made mission.pbo's need to be placed)  
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3server_x64.rpt (Debug RPT Log, automatically created every time the arma3server.exe is started)  
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\net.log (Parameter -netlog - Enables multiplayer network traffic logging )  
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\mpStatistics.log (Contains some statistics relevant to Join In Progress performance. Logged at the end of mission. This means a mission must end one way or another to have the stats to be written to the file. So are no stats written on the fly/while the mission is running.)  
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server_console.rpt (Setting "logFile = "server_console.log";" - 	Enables output of dedicated server console into textfile.)  
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\ranking.log (Parameter -ranking=, output ranking information or otherwise know as player stats to a file.)  
+
 
 -----------------------------
 You have to be logged in as "admin" in order to use those commands
