@@ -109,7 +109,9 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server.cfg (Manually created)
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)
 -D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
--D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3server_x64_*TIMESTAMP*.rpt (Debug Log, automatically created every time the arma3server.exe is started)
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\mpStatistics_*NUMBER*.rpt (xxxxxxxxxxxxxxxx)
+-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server_console_*NUMBER*.rpt (xxxxxxxxxxxxxxxx)
 -D:\SteamLibrary\steamapps\common\Arma 3\MPMissions\ (This is where custom made mission.pbo's need to be placed)
 
 -----------------------------
