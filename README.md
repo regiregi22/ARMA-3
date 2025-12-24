@@ -35,7 +35,7 @@ All below settings are optional, but they will provide better performance or imp
 
 14- Right click on the Desktop, click Display settings, click Graphics, click on Arma 3, click Options and set "High Performance". Click on "Default graphics settings" and set to ON the three settings.
 
-15- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, Program Settings, and add "arma3_x64.exe". Set "Power Management Mode" to "Prefer maximum performance", "Vertical Sync" to On, "Shader Cache Size" to 100 Gb and "Texture filtering - Quality" to High quality. If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible. Then go to Display, Set-up G-SYNC, tick "Enable G-SYNC", tick "Enable for windowed and full screen mode", select your display and tick "Enable settings for the selected display model". Make sure you activate G-SYNC/Freesync on your monitor buttons menu.  
+15- If you have an Nvidia GPU, open the Nvidia Control Panel, go to 3D Settings, Manage 3D Settings, tab "Global Settings" and set "Shader Cache Size" to 100 Gb. Go to tab "Program Settings", look for or add "arma3_x64.exe", set "Power Management Mode" to "Prefer maximum performance", "Vertical Sync" to On and "Texture filtering - Quality" to High quality. If you have a G-SYNC monitor, set "Max Frame Rate" to 3 frames below the maximum (with a 144hz monitor, use 141Hz), and set "Monitor Technology" to G-SYNC Compatible. Then go to Display, Set-up G-SYNC, tick "Enable G-SYNC", tick "Enable for windowed and full screen mode", select your display and tick "Enable settings for the selected display model". Make sure you activate G-SYNC/Freesync on your monitor buttons menu.  
 
 16- Press Start button, search "Core Isolation", set "Memory integrity" to OFF.
 
@@ -47,10 +47,12 @@ All below settings are optional, but they will provide better performance or imp
 
 20- Press Start button, search "Disk Cleanup", select C:, mark "DirectX Shader Cache" and click OK.
 
-21- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled, set "Anisotropic filtering" to 16x. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
+21- Delete Nvidia Shader Cache folders "DXCache" and "GLCache": https://nvidia.custhelp.com/app/answers/detail/a_id/5735/~/deleting-nvidia-shader-cache-files
+
+22- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled, set "Anisotropic filtering" to 16x. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
-22- This is the gold standard benchmark for testing Arma performance settings, if needed:
+23- This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
 -----------------------------
