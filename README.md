@@ -52,7 +52,9 @@ All below settings are optional, but they will provide better performance or imp
 22- Run Arma 3, go to Options, Video Options and click the button "AUTODETECT". Go to tab Display, set Display mode to "Fullscreen", set your resolution, set your aspect ratio, set "VSYNC" to Disabled, set "Anisotropic filtering" to 16x. This is your base configuration, if you want now you can fine tune the settings on the "General" tab and the "AA & PP" tab to your liking. You can see here if a setting is more CPU or GPU dependant:
 https://community.bistudio.com/wiki/Arma_3:_Performance_Optimisation
 
-23- This is the gold standard benchmark for testing Arma performance settings, if needed:
+23- If running on a high end modern computer (as an Intel 10900K, Nvidia RTX 3080 and 16Gb RAM) you can just max out everything as shown in those three screenshots a, b and c, and still get +100fps on a 4K screen: https://github.com/regiregi22/ARMA-3/tree/main/img
+
+24- This is the gold standard benchmark for testing Arma performance settings, if needed:
 Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418  
 
 -----------------------------
