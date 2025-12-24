@@ -104,14 +104,14 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 ### Arma 3 Server File Locations:  
 
-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\myserver.Arma3Profile (Difficulty settings)
-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\myserver.vars.Arma3Profile (Some binarised content which you cannot edit)
-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\basic.cfg (Bandwidth settings)
-D:\SteamLibrary\steamapps\common\Arma 3\MPMissions\ (This is where custom made mission.pbo's need to be placed)
-D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)
+D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\Users\myserver\myserver.Arma3Profile (Difficulty settings)
+D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\Users\myserver\myserver.vars.Arma3Profile (Some binarised content which you cannot edit)
+D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\basic.cfg (Network Bandwidth settings)
 D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\server.cfg (Manually created)
 D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartServer.bat (Manually created)
 D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\StartHC.bat (Manually created)
+D:\SteamLibrary\steamapps\common\Arma 3\MyArmaServer\arma3.rpt (Debug Log, automatically created every time the arma3server.exe is started)
+D:\SteamLibrary\steamapps\common\Arma 3\MPMissions\ (This is where custom made mission.pbo's need to be placed)
 
 -----------------------------
 You have to be logged in as "admin" in order to use those commands
