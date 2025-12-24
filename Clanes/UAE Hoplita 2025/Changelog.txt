@@ -4,7 +4,6 @@ ACE config
 -Deshabilitado "ACE Advanced Vehicle Damage" ya que salían los vehiculos volando al explotar (ace_vehicle_damage_enabled = false;). 
   
 
-
 23-12-2025
 BEServer_x64.cfg
 -Modificado en "BEServer_x64.cfg" el password "RConPassword".
@@ -23,7 +22,6 @@ basic.cfg:
 
 armahosts.arma3profile:
 -Modificado en "armahosts.arma3profile" el "viewDistance=1000;" a 3000. Esto aumenta el "knowAbout" entre unidades en el servidor (default Arma 3, 1600). No afecta a la distancia del cliente.
-
 
 
 24-12-2025
