@@ -27,3 +27,6 @@ armahosts.arma3profile:
 24-12-2025
 armahosts.arma3profile:
 -Modificado en "armahosts.arma3profile" el "terrainGrid=25;" a 3.125
+
+server.cfg
+-Modificado en "server.cfg" el password "serverCommandPassword". Se pone el mismo que "RConPassword".
