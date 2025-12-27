@@ -1,0 +1,67 @@
+class DifficultyPresets
+{
+	class CustomDifficulty
+	{
+		class Options
+		{
+			reducedDamage=0;
+			groupIndicators=0;
+			friendlyTags=0;
+			enemyTags=0;
+			detectedMines=0;
+			commands=0;
+			waypoints=0;
+			tacticalPing=0;
+			weaponInfo=1;
+			stanceIndicator=1;
+			staminaBar=1;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=1;
+			cameraShake=1;
+			scoreTable=0;
+			deathMessages=0;
+			vonID=0;
+			mapContentFriendly=0;
+			mapContentEnemy=0;
+			mapContentMines=0;
+			autoReport=0;
+			multipleSaves=0;
+		};
+		aiLevelPreset=3;
+	};
+	class CustomAILevel
+	{
+		skillAI=0.5;
+		precisionAI=0.5;
+	};
+};
+activeKeys[]=
+{
+	"BIS_ESM_CTF_Sofia_S_v3-7.Altis_done",
+	"BIS_ESM_CTF_Neochori_S_v3-7.Altis_done",
+	"BIS_ESM_CTF_Chapoi_S_v3-7.Malden_done",
+	"BIS_ESM_CTF_Boot_Camp_XS_v3-7.Malden_done",
+	"BIS_ESM_CH_Zaros_S_v1-0-4.Altis_done",
+	"BIS_ARMA3_ES_OPEX_PUBLICO.lythium_done",
+	"BIS_ARMA3_ES_OPEX.lythium_done",
+	"BIS_MP_Marksmen_01.Altis_done",
+	"BIS_ARMA3ES_OPEX.lythium_done",
+	"BIS_HALLOWEEN_2025.Gallo_BlockIsland_done",
+	"BIS_HALLOWEEN_2025_dia2.chernarusredux_done",
+	"BIS_HALLOWEEN_2025_dia3.cytech_underground_terrain_done"
+};
+sceneComplexity=100000;
+shadowZDistance=100;
+viewDistance=1000;
+preferredObjectViewDistance=800;
+pipViewDistance=500;
+terrainGrid=25;
+volumeCD=10;
+volumeFX=10;
+volumeSpeech=10;
+volumeVoN=10;
+singleVoice=0;
+vonRecThreshold=0.029999999;
+volumeMapDucking=1;
+volumeUI=1;
