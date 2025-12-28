@@ -46,9 +46,9 @@ force force ace_arsenal_enableModIcons = 1;
 ace_arsenal_EnableRPTLog = false;
 ace_arsenal_favoritesColor = [0.9,0.875,0.6];
 ace_arsenal_fontHeight = 4.5;
-force force ace_arsenal_loadoutsSaveFace = true;
+force force ace_arsenal_loadoutsSaveFace = false;
 force force ace_arsenal_loadoutsSaveInsignia = true;
-force force ace_arsenal_loadoutsSaveVoice = true;
+force force ace_arsenal_loadoutsSaveVoice = false;
 ace_arsenal_showUnavailableItems = 0;
 
 // ACE Artillery
@@ -88,7 +88,7 @@ force force ace_common_settingProgressBarLocation = 0;
 force force ace_common_swayFactor = 1;
 
 // ACE Cook-off
-force force ace_cookoff_ammoCookoffDuration = 1;
+force force ace_cookoff_ammoCookoffDuration = 0.5;
 force force ace_cookoff_cookoffDuration = 1;
 force force ace_cookoff_cookoffEnableProjectiles = true;
 force force ace_cookoff_cookoffEnableSound = true;
@@ -104,7 +104,7 @@ force force ace_csw_ammoHandling = 2;
 force force ace_csw_defaultAssemblyMode = true;
 force force ace_csw_dragAfterDeploy = true;
 force force ace_csw_handleExtraMagazines = true;
-force force ace_csw_handleExtraMagazinesType = 0;
+force force ace_csw_handleExtraMagazinesType = 1;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
@@ -119,10 +119,10 @@ force force ace_explosives_customTimerMax = 900;
 force force ace_explosives_customTimerMin = 5;
 force force ace_explosives_explodeOnDefuse = true;
 force force ace_explosives_punishNonSpecialists = true;
-force force ace_explosives_requireSpecialist = false;
+force force ace_explosives_requireSpecialist = true;
 
 // ACE Field Rations
-force force ace_field_rations_zeusUpdates = true;
+force force ace_field_rations_zeusUpdates = false;
 force force acex_field_rations_affectAdvancedFatigue = true;
 force force acex_field_rations_enabled = false;
 force force acex_field_rations_hudShowLevel = 0;
@@ -150,8 +150,8 @@ force force acex_fortify_settingHint = 2;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = true;
-force force ace_frag_reflectionsEnabled = false;
-force force ace_frag_spallEnabled = false;
+force force ace_frag_reflectionsEnabled = true;
+force force ace_frag_spallEnabled = true;
 force force ace_frag_spallIntensity = 1;
 
 // ACE G-Forces
@@ -172,7 +172,7 @@ force force acex_headless_delay = 15;
 force force acex_headless_enabled = true;
 force force acex_headless_endMission = 0;
 force force acex_headless_log = false;
-force force acex_headless_transferLoadout = 0;
+force force acex_headless_transferLoadout = 2;
 
 // ACE Hearing
 force force ace_hearing_autoAddEarplugsToUnits = 0;
@@ -449,7 +449,7 @@ force force ace_medical_alternateArmorPenetration = true;
 force force ace_medical_bleedingCoefficient = 0.5;
 force force ace_medical_blood_bloodLifetime = 900;
 force force ace_medical_blood_enabledFor = 2;
-force force ace_medical_blood_maxBloodObjects = 500;
+force force ace_medical_blood_maxBloodObjects = 2000;
 force force ace_medical_deathChance = 0;
 force force ace_medical_dropWeaponUnconsciousChance = 0;
 force force ace_medical_enableVehicleCrashes = true;
@@ -459,15 +459,15 @@ force force ace_medical_fractures = 1;
 force force ace_medical_ivFlowRate = 1;
 force force ace_medical_limbDamageThreshold = 5;
 force force ace_medical_limping = 1;
-force force ace_medical_painCoefficient = 1;
+force force ace_medical_painCoefficient = 0.7;
 force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_painUnconsciousThreshold = 0.5;
 force force ace_medical_playerDamageThreshold = 1;
 force force ace_medical_spontaneousWakeUpChance = 0.3;
-force force ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
+force force ace_medical_spontaneousWakeUpEpinephrineBoost = 4;
 force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
-force force ace_medical_statemachine_cardiacArrestTime = 600;
+force force ace_medical_statemachine_cardiacArrestTime = 300;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 2;
 force force ace_medical_useLimbDamage = 0;
@@ -502,7 +502,7 @@ ace_medical_gui_enableActions = 0;
 force force ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
 force force ace_medical_gui_interactionMenuShowTriage = 1;
-force force ace_medical_gui_maxDistance = 3;
+force force ace_medical_gui_maxDistance = 4;
 force force ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_gui_peekMedicalInfoReleaseDelay = 1;
 force force ace_medical_gui_peekMedicalOnHit = false;
@@ -525,12 +525,12 @@ force force ace_medical_treatment_allowSelfStitch = 1;
 force force ace_medical_treatment_allowSharedEquipment = 0;
 force force ace_medical_treatment_bandageEffectiveness = 1;
 force force ace_medical_treatment_bandageRollover = true;
-force force ace_medical_treatment_clearTrauma = 2;
+force force ace_medical_treatment_clearTrauma = 0;
 force force ace_medical_treatment_consumePAK = 0;
 force force ace_medical_treatment_consumeSurgicalKit = 0;
-force force ace_medical_treatment_convertItems = 2;
-force force ace_medical_treatment_cprSuccessChanceMax = 0.4;
-force force ace_medical_treatment_cprSuccessChanceMin = 0.4;
+force force ace_medical_treatment_convertItems = 0;
+force force ace_medical_treatment_cprSuccessChanceMax = 0.8;
+force force ace_medical_treatment_cprSuccessChanceMin = 0.6;
 force force ace_medical_treatment_graveDiggingMarker = true;
 force force ace_medical_treatment_holsterRequired = 0;
 force force ace_medical_treatment_litterCleanupDelay = 600;
@@ -604,7 +604,7 @@ force force ace_overheating_overheatingDispersion = true;
 force force ace_overheating_overheatingRateOfFire = true;
 force force ace_overheating_particleEffectsAndDispersionDistance = 3000;
 force force ace_overheating_showParticleEffects = true;
-force force ace_overheating_showParticleEffectsForEveryone = false;
+force force ace_overheating_showParticleEffectsForEveryone = true;
 force force ace_overheating_suppressorCoef = 0.5;
 force force ace_overheating_unJamFailChance = 0.1;
 force force ace_overheating_unJamOnreload = false;
@@ -623,9 +623,9 @@ force force ace_pylons_enabledForZeus = true;
 force force ace_pylons_enabledFromAmmoTrucks = true;
 force force ace_pylons_rearmNewPylons = false;
 force force ace_pylons_requireEngineer = false;
-force force ace_pylons_requireToolkit = true;
+force force ace_pylons_requireToolkit = false;
 force force ace_pylons_searchDistance = 15;
-force force ace_pylons_timePerPylon = 5;
+force force ace_pylons_timePerPylon = 2;
 
 // ACE Quick Mount
 force force ace_quickmount_distance = 3;
@@ -655,7 +655,7 @@ force force ace_repair_patchWheelRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_patchWheelTime = 5;
 force force ace_repair_repairDamageThreshold = 0.6;
 force force ace_repair_repairDamageThreshold_engineer = 0.4;
-force force ace_repair_timeCoefficientFullRepair = 1.5;
+force force ace_repair_timeCoefficientFullRepair = 0.3;
 force force ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = [];
 
@@ -793,7 +793,7 @@ force force acex_viewrestriction_preserveView = false;
 
 // ACE Volume
 force force acex_volume_enabled = false;
-force force acex_volume_fadeDelay = 1;
+force force acex_volume_fadeDelay = 0;
 force force acex_volume_lowerInVehicles = false;
 force force acex_volume_reduction = 5;
 force force acex_volume_remindIfLowered = false;
@@ -812,7 +812,7 @@ force force ace_weaponselect_displayText = true;
 // ACE Weather
 force force ace_weather_enabled = true;
 force force ace_weather_showCheckAirTemperature = true;
-force force ace_weather_updateInterval = 60;
+force force ace_weather_updateInterval = 300;
 force force ace_weather_windSimulation = true;
 
 // ACE Wind Deflection
@@ -821,7 +821,7 @@ force force ace_winddeflection_simulationInterval = 0.05;
 force force ace_winddeflection_vehicleEnabled = true;
 
 // ACE Zeus
-force force ace_zeus_autoAddObjects = false;
+force force ace_zeus_autoAddObjects = true;
 force force ace_zeus_canCreateZeus = 0;
 force force ace_zeus_radioOrdnance = false;
 force force ace_zeus_remoteWind = false;
@@ -913,7 +913,7 @@ force force TFAR_externalIntercomMaxRange_Phone = 5;
 force force TFAR_externalIntercomMaxRange_Wireless = 15;
 force force TFAR_fullDuplex = true;
 force force TFAR_giveLongRangeRadioToGroupLeaders = false;
-force force TFAR_giveMicroDagrToSoldier = true;
+force force TFAR_giveMicroDagrToSoldier = false;
 force force TFAR_givePersonalRadioToRegularSoldier = true;
 force force TFAR_globalRadioRangeCoef = 1;
 force force TFAR_instantiate_instantiateAtBriefing = false;
