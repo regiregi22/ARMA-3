@@ -1,4 +1,3 @@
-
 // ACE Advanced Ballistics
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
@@ -34,9 +33,9 @@ force force ace_arsenal_enableModIcons = 1;
 ace_arsenal_EnableRPTLog = false;
 ace_arsenal_favoritesColor = [0.9,0.875,0.6];
 ace_arsenal_fontHeight = 4.5;
-force force ace_arsenal_loadoutsSaveFace = true;
+force force ace_arsenal_loadoutsSaveFace = false;
 force force ace_arsenal_loadoutsSaveInsignia = true;
-force force ace_arsenal_loadoutsSaveVoice = true;
+force force ace_arsenal_loadoutsSaveVoice = false;
 ace_arsenal_showUnavailableItems = 0;
 
 // ACE Captives
@@ -68,7 +67,7 @@ force force ace_common_settingProgressBarLocation = 0;
 force force ace_common_swayFactor = 1;
 
 // ACE Cook-off
-force force ace_cookoff_ammoCookoffDuration = 1;
+force force ace_cookoff_ammoCookoffDuration = 0.5;
 force force ace_cookoff_cookoffDuration = 1;
 force force ace_cookoff_cookoffEnableProjectiles = true;
 force force ace_cookoff_cookoffEnableSound = true;
@@ -95,8 +94,8 @@ force force ace_dragging_weightCoefficient = 1;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = true;
-force force ace_frag_reflectionsEnabled = false;
-force force ace_frag_spallEnabled = false;
+force force ace_frag_reflectionsEnabled = true;
+force force ace_frag_spallEnabled = true;
 force force ace_frag_spallIntensity = 1;
 
 // ACE G-Forces
@@ -368,7 +367,7 @@ force force ace_overheating_overheatingDispersion = true;
 force force ace_overheating_overheatingRateOfFire = true;
 force force ace_overheating_particleEffectsAndDispersionDistance = 3000;
 force force ace_overheating_showParticleEffects = true;
-force force ace_overheating_showParticleEffectsForEveryone = false;
+force force ace_overheating_showParticleEffectsForEveryone = true;
 force force ace_overheating_suppressorCoef = 0.5;
 force force ace_overheating_unJamFailChance = 0.1;
 force force ace_overheating_unJamOnreload = false;
@@ -387,9 +386,9 @@ force force ace_pylons_enabledForZeus = true;
 force force ace_pylons_enabledFromAmmoTrucks = true;
 force force ace_pylons_rearmNewPylons = false;
 force force ace_pylons_requireEngineer = false;
-force force ace_pylons_requireToolkit = true;
+force force ace_pylons_requireToolkit = false;
 force force ace_pylons_searchDistance = 15;
-force force ace_pylons_timePerPylon = 5;
+force force ace_pylons_timePerPylon = 2;
 
 // ACE Quick Mount
 force force ace_quickmount_distance = 3;
@@ -419,7 +418,7 @@ force force ace_repair_patchWheelRequiredItems = [];
 force force ace_repair_patchWheelTime = 5;
 force force ace_repair_repairDamageThreshold = 0.6;
 force force ace_repair_repairDamageThreshold_engineer = 0.4;
-force force ace_repair_timeCoefficientFullRepair = 1.5;
+force force ace_repair_timeCoefficientFullRepair = 0.2;
 force force ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = [];
 
@@ -466,7 +465,7 @@ force force ace_trenches_smallEnvelopeDigDuration = 20;
 force force ace_trenches_smallEnvelopeRemoveDuration = 12;
 
 // ACE Uncategorized
-force force ace_fastroping_autoAddFRIES = true;
+force force ace_fastroping_autoAddFRIES = false;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_flags_enableCarrying = true;
 force force ace_flags_enablePlacing = true;
@@ -543,7 +542,7 @@ force force ace_viewdistance_viewDistanceOnFoot = 0;
 
 // ACE Volume
 force force acex_volume_enabled = false;
-force force acex_volume_fadeDelay = 1;
+force force acex_volume_fadeDelay = 0;
 force force acex_volume_lowerInVehicles = false;
 force force acex_volume_reduction = 5;
 force force acex_volume_remindIfLowered = false;
@@ -562,7 +561,7 @@ force force ace_weaponselect_displayText = true;
 // ACE Weather
 force force ace_weather_enabled = true;
 force force ace_weather_showCheckAirTemperature = true;
-force force ace_weather_updateInterval = 60;
+force force ace_weather_updateInterval = 300;
 force force ace_weather_windSimulation = true;
 
 // ACE Wind Deflection
@@ -582,11 +581,11 @@ force force ace_zeus_zeusBird = false;
 // Community Base Addons
 cba_diagnostic_ConsoleIndentType = -1;
 force force cba_diagnostic_watchInfoRefreshRate = 0.2;
-force force cba_disposable_dropUsedLauncher = 1;
+cba_disposable_dropUsedLauncher = 1;
 force force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 force force cba_network_loadoutValidation = 0;
 cba_optics_usePipOptics = true;
-force force cba_quicktime_qteShorten = false;
+cba_quicktime_qteShorten = false;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
