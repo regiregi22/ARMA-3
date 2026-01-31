@@ -40,8 +40,8 @@ class DifficultyPresets
 singleVoice=0;
 sceneComplexity=100000;
 shadowZDistance=100;
-viewDistance=3000;
-preferredObjectViewDistance=1500;
+viewDistance=5000;
+preferredObjectViewDistance=3000;
 pipViewDistance=1000;
 terrainGrid=3.125;
 volumeCD=10;
