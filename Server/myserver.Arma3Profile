@@ -4,37 +4,37 @@ class DifficultyPresets
 	{
 		class Options
 		{
-			reducedDamage=0;		// Decreases damage dealt to the player and members of his group.
-			groupIndicators=0;		// Shows indication icons on units in player's group. Group indicators (0 = never, 1 = limited distance, 2 = always)
-			friendlyTags=0;			// Friendly unit identification. Works only when the player aims at a unit. Friendly name tags (0 = never, 1 = limited distance, 2 = always)
-			enemyTags=0;			// Enemy unit identification. Works only when the player aims at a unit. Enemy name tags (0 = never, 1 = limited distance, 2 = always)
-			detectedMines=0;		// Shows icons indicating exact positions of mines which are 200 m or closer. Detected mines (0 = never, 1 = limited distance, 2 = always)
-			commands=0;			// Displays command icons like target markers, get in command and others. Commands (0 = never, 1 = fade out, 2 = always)
-			waypoints=0;			// Manages visibility of waypoint markers. Waypoints (0 = never, 1 = fade out, 2 = always)
-			tacticalPing=0;			// Allows players to highlight a position via a Tactical Ping. Tactical ping (0 = disabled, 1 = in 3D scene, 2 = on map, 3 = both)
-			weaponInfo=2;			// Shows Weapon Info box contains round and magazine count, firing mode, etc.. Weapon info (0 = never, 1 = fade out, 2 = always)
-			stanceIndicator=2;		// Displays stance indication contains actual stance, weapon resting and deployment. Stance indicator (0 = never, 1 = fade out, 2 = always)
-			staminaBar=1;			// Manages visibility of stamina indicator. Fades in when stamina changes.
-			weaponCrosshair=0;		// Shows weapon crosshair both in 1st and 3rd person view.
-			visionAid=0;			// Helps to detect units in visual range and identify friend from foe.
-			thirdPersonView=0;		// 3rd person view (0 = disabled, 1 = enabled, 2 = enabled for vehicles only
-			cameraShake=1;			// Shakes camera if player is near explosion, passing vehicle or if player's vehicle is under G-load.
-			scoreTable=1;			// Displays table with kills, deaths and overall score in multiplayer.
-			deathMessages=1;		// Shows in chat window who killed the player.
-			vonID=1;			// Indicates who is speaking through VON communication.
-			mapContent = 0;			// If it is set, all other mapContent* properties are overwritten.
-			mapContentFriendly=0;		// Shows friendly units on the map.
-			mapContentEnemy=0;		// Shows enemy units on the map.
-			mapContentMines=0;		// Shows detected mines on the map.
-			autoReport=0;			// Enables/disables automatic reporting of spotted enemies by players only.
-			multipleSaves=1;		// Allows player to create multiple saves in a mission.
+			reducedDamage=0;
+			groupIndicators=0;
+			friendlyTags=0;
+			enemyTags=0;
+			detectedMines=0;
+			commands=0;
+			waypoints=0;
+			tacticalPing=0;
+			weaponInfo=2;
+			stanceIndicator=2;
+			staminaBar=1;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=0;
+			cameraShake=1;
+			scoreTable=1;
+			deathMessages=1;
+			vonID=1;
+			mapContent = 0;
+			mapContentFriendly=0;
+			mapContentEnemy=0;
+			mapContentMines=0;
+			autoReport=0;
+			multipleSaves=1;
 		};
-		aiLevelPreset=3;			// AI skill level0 (Low), 1 (Normal), 2 (High), 3 (Custom). In Custom skill and precision are taken from the class CustomAILevel.
+		aiLevelPreset=3;
 	};
 	class CustomAILevel
 	{
-		skillAI=0;
-		precisionAI=0;
+		skillAI=0.1;
+		precisionAI=0.1;
 	};
 };
 singleVoice=0;
