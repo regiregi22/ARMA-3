@@ -220,7 +220,7 @@ You have to be logged in as "admin" in order to use those commands
     #debug totalSent 10 
 
 
-### Debugging Commands:
+### Players Commands:
 
     #vote missions : Users can vote for the mission selection.
     #vote mission (name) : Users can vote on a particular mission to loaded.
