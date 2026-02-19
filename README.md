@@ -70,9 +70,9 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 ### Arma 3 Server Network Configuration:  
 
-1- Add on Window's Firewall the rules for the application "arma3server_x64.exe", and allow it both on "Private" and "Public" networks.
+1- Add on Window's Firewall the rule for the application "arma3server_x64.exe", and allow it both on "Private", "Public" and "Domain" networks.
 
-2- On Windows' Firewall Advanced Settings, look for the two rules of "arma3server_x64.exe", and enable on both of them the setting "Allow edge traversal".  
+2- On Windows' Firewall Advanced Settings, look for having only one rule for "arma3server_x64.exe", and enable the setting "Allow edge traversal". Mark "Private", "Public" and "Domain". Set Protocol as "Any". Enable the rule.
 
 3- Set the ICMP "echo reply" as allowed so the server is able return ping delay properly (https://manage.accuwebhosting.com/knowledgebase/2609/How-to-Allow-Pingor-ICMP-Echo-Request-in-Windows-Firewall.html)  
 
