@@ -85,11 +85,11 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 27015-UDP-(STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
 
 5- Allow those ports and protocols OUTBOUND on your firewall/router (only if needed):  
-2344 - TCP+UDP - 81.0.236.111 - BattlEye-arma31.battleye.com
-2345 - TCP - 81.0.236.111 - BattlEye-arma31.battleye.com
-2302-2306 - UDP - ANY - Arma Server to Client Traffic
-2303 - UDP - ANY - Arma Server STEAM query port
-2304 - UDP - ANY - Arma Server to STEAM master traffic
+2344 - TCP+UDP - 81.0.236.111 - BattlEye-arma31.battleye.com  
+2345 - TCP - 81.0.236.111 - BattlEye-arma31.battleye.com  
+2302-2306 - UDP - ANY - Arma Server to Client Traffic  
+2303 - UDP - ANY - Arma Server STEAM query port  
+2304 - UDP - ANY - Arma Server to STEAM master traffic  
 
 -----------------------------
 ### Arma 3 Server Launch Parameters:  
