@@ -76,13 +76,20 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 3- Set the ICMP "echo reply" as allowed so the server is able return ping delay properly (https://manage.accuwebhosting.com/knowledgebase/2609/How-to-Allow-Pingor-ICMP-Echo-Request-in-Windows-Firewall.html)  
 
-4- NAT forward those six ports on both TCP and UDP. uPnP could be used instead, but it is better to NAT them:  
-2302 (default Arma 3 Game port) + (VON is now part of main gameport due to NAT issues)  
-2303 (STEAM query, +1)  
-2304 (Steam port, +2)  
-2305 (VON port, +3 - not used atm. but allocated)  
-2306 (BattlEye traffic, +4)  
-27015 (STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
+4- NAT forward those default INBOUND ports on your router. uPnP could be used instead, but it is better to NAT them:  
+2302-UDP-(default Arma 3 Game port) + (VON is now part of main gameport due to NAT issues)  
+2303-UDP-(STEAM query, +1)  
+2304-UDP-(Steam port, +2)  
+2305-UDP-(VON port, +3 - not used atm. but allocated)  
+2306-UDP-(BattlEye traffic, +4)  
+27015-UDP-(STEAM Rcon port of SRCDS with TCP, and game's traffic with UDP)  
+
+5- Allow those ports and protocols OUTBOUND on your firewall/router (only if needed):  
+2344 - TCP+UDP - 81.0.236.111 - BattlEye-arma31.battleye.com
+2345 - TCP - 81.0.236.111 - BattlEye-arma31.battleye.com
+2302-2306 - UDP - ANY - Arma Server to Client Traffic
+2303 - UDP - ANY - Arma Server STEAM query port
+2304 - UDP - ANY - Arma Server to STEAM master traffic
 
 -----------------------------
 ### Arma 3 Server Launch Parameters:  
