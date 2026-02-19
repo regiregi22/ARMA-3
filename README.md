@@ -76,7 +76,7 @@ Benchmark: https://steamcommunity.com/sharedfiles/filedetails/?id=375092418
 
 3- Set the ICMP "echo reply" as allowed so the server is able return ping delay properly (https://manage.accuwebhosting.com/knowledgebase/2609/How-to-Allow-Pingor-ICMP-Echo-Request-in-Windows-Firewall.html)  
 
-4- NAT forward those six ports on both TCP and UDP. uPnP could be used instead, but it is better to NAT them:
+4- NAT forward those six ports on both TCP and UDP. uPnP could be used instead, but it is better to NAT them:  
 2302 (default Arma 3 Game port) + (VON is now part of main gameport due to NAT issues)  
 2303 (STEAM query, +1)  
 2304 (Steam port, +2)  
